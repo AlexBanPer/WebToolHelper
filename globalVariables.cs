@@ -10,5 +10,8 @@ namespace WebToolHelper
     {
         public static String textToEdit = "";
         public static String tabToSet = "";
+
+        // content for webtoolhelper
+        public static String content = "";
     }
 }
