@@ -39,6 +39,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dbPassTxtBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.editCodeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pdoClassTextBox
@@ -63,7 +64,7 @@
             // 
             // previewBtn
             // 
-            this.previewBtn.Location = new System.Drawing.Point(12, 410);
+            this.previewBtn.Location = new System.Drawing.Point(12, 381);
             this.previewBtn.Name = "previewBtn";
             this.previewBtn.Size = new System.Drawing.Size(151, 23);
             this.previewBtn.TabIndex = 4;
@@ -136,12 +137,24 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "DataBase Password";
             // 
+            // editCodeBtn
+            // 
+            this.editCodeBtn.Enabled = false;
+            this.editCodeBtn.Location = new System.Drawing.Point(12, 410);
+            this.editCodeBtn.Name = "editCodeBtn";
+            this.editCodeBtn.Size = new System.Drawing.Size(151, 23);
+            this.editCodeBtn.TabIndex = 13;
+            this.editCodeBtn.Text = "Edit Code";
+            this.editCodeBtn.UseVisualStyleBackColor = true;
+            this.editCodeBtn.Click += new System.EventHandler(this.editCodeBtn_Click);
+            // 
             // generatePDOClass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(789, 474);
+            this.Controls.Add(this.editCodeBtn);
             this.Controls.Add(this.dbPassTxtBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dbUserTxtBox);
@@ -173,5 +186,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox dbPassTxtBox;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button editCodeBtn;
     }
 }

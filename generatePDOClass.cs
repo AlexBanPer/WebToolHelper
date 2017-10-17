@@ -22,16 +22,34 @@ namespace WebToolHelper
             string phpStart = "<?php\n";
             string structureComment = "/**\n* PDOConnect\n*/\n ";
             string startClass = "class PDOConnect\n{\npublic $dbPDO;\nprivate$tableName;\n function __construct()\n{\n$this->checkConn();\n}\n";
-            string checkConn = "private function checkConn($dbhost=" + hostname + ", $dbname=" + dbname + ", $dbuser=" + dbuser + ", $dbpass=" + dbpass + ")\n{\n";
+            string checkConn = "private function checkConn($dbhost='" + hostname + "', $dbname='" + dbname + "', $dbuser='" + dbuser + "', $dbpass='" + dbpass + "')\n{\n";
             string checkConnMiddle = "try{\n$this->dbPDO = new PDO('mysql:host='.$dbhost.';dbname='.$dbname, $dbuser, $dbpass);\n}catch(PDOException $e){\nprint 'Error!: '.$e->getMessage().'<br>';\ndie();\n}\n}\n}";
             string phpEnd = "\n?>";
-            string CompleteCode = phpStart + structureComment + startClass + checkConn + checkConnMiddle + phpEnd;
+            string finishCode = phpStart + structureComment + startClass + checkConn + checkConnMiddle + phpEnd;
+            string CompleteCode = finishCode.Replace("\n", Environment.NewLine);
             return CompleteCode;
         }
 
         private void previewBtn_Click(object sender, EventArgs e)
         {
-            pdoClassTextBox.Text = generateClass("localhost", "tesla", "user", "pasword");
+            if (hostnameTxtBox.Text == "") hostnameTxtBox.Text = "localhost";
+            if (dbUserTxtBox.Text == "") dbUserTxtBox.Text = "root";
+            if(dbNameTxtBox.Text == "")
+            {
+                MessageBox.Show("Yout must insert a Data Base Name!");
+            }
+            else
+            {
+                pdoClassTextBox.Text = generateClass(hostnameTxtBox.Text, dbNameTxtBox.Text, dbUserTxtBox.Text, dbPassTxtBox.Text);
+                editCodeBtn.Enabled = true;
+                generateBtn.Enabled = true;
+            }
+        }
+
+        private void editCodeBtn_Click(object sender, EventArgs e)
+        {
+            pdoClassTextBox.ReadOnly = false;
+            pdoClassTextBox.BackColor = Color.White;
         }
     }
 }
