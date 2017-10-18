@@ -40,11 +40,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.saveBasicHTML = new System.Windows.Forms.SaveFileDialog();
+            this.label4 = new System.Windows.Forms.Label();
+            this.configBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.configBtn);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.generatePDOBtn);
@@ -153,6 +157,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(3, 327);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "SQL";
+            // 
+            // configBtn
+            // 
+            this.configBtn.Location = new System.Drawing.Point(0, 343);
+            this.configBtn.Name = "configBtn";
+            this.configBtn.Size = new System.Drawing.Size(204, 23);
+            this.configBtn.TabIndex = 11;
+            this.configBtn.Text = "Configurator";
+            this.configBtn.UseVisualStyleBackColor = true;
+            this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,7 +183,7 @@
             this.ClientSize = new System.Drawing.Size(234, 438);
             this.Controls.Add(this.panel1);
             this.Name = "MainMenu";
-            this.Text = "Main Menu";
+            this.Text = "WebToolHelper";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -181,6 +204,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.SaveFileDialog saveBasicHTML;
+        private System.Windows.Forms.Button configBtn;
+        private System.Windows.Forms.Label label4;
     }
 }
 

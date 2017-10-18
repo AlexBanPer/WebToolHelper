@@ -28,12 +28,12 @@ namespace WebToolHelper
 
         private void editCodeFullTab_Load(object sender, EventArgs e)
         {
-            textBox1.Text = globalVariables.textToEdit;
+            textBox1.Text = globalFunctions.textToEdit;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            switch (globalVariables.tabToSet)
+            switch (globalFunctions.tabToSet)
             {
                 case "Meta":
                     advancedHTMLSetString.setMetaTextBox = textBox1.Text;

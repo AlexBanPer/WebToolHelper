@@ -105,16 +105,16 @@ namespace WebToolHelper
         private void editOnTabBTN_Click_1(object sender, EventArgs e)
         {
             String textToEdit = metaTextBox.Text;
-            globalVariables.textToEdit = textToEdit;
-            globalVariables.tabToSet = "Meta";
+            globalFunctions.textToEdit = textToEdit;
+            globalFunctions.tabToSet = "Meta";
             openNewTab();
         }
 
         private void editOnTabBTN2_Click(object sender, EventArgs e)
         {
             String textToEdit = navbarTextBox.Text;
-            globalVariables.textToEdit = textToEdit;
-            globalVariables.tabToSet = "NavBar";
+            globalFunctions.textToEdit = textToEdit;
+            globalFunctions.tabToSet = "NavBar";
             openNewTab();
         }
 
