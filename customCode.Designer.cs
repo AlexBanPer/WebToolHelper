@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.customCodeTextBox = new System.Windows.Forms.TextBox();
+            this.readCodeBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -44,29 +44,30 @@
             this.label1.Text = "INSERT CUSTOM CODE";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // customCodeTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(458, 20);
-            this.textBox1.TabIndex = 1;
+            this.customCodeTextBox.Location = new System.Drawing.Point(12, 49);
+            this.customCodeTextBox.Name = "customCodeTextBox";
+            this.customCodeTextBox.Size = new System.Drawing.Size(458, 20);
+            this.customCodeTextBox.TabIndex = 1;
             // 
-            // button1
+            // readCodeBtn
             // 
-            this.button1.Location = new System.Drawing.Point(12, 75);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(458, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.readCodeBtn.Location = new System.Drawing.Point(12, 75);
+            this.readCodeBtn.Name = "readCodeBtn";
+            this.readCodeBtn.Size = new System.Drawing.Size(458, 23);
+            this.readCodeBtn.TabIndex = 2;
+            this.readCodeBtn.Text = "READ CODE";
+            this.readCodeBtn.UseVisualStyleBackColor = true;
+            this.readCodeBtn.Click += new System.EventHandler(this.readCodeBtn_Click);
             // 
             // customCode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 107);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.readCodeBtn);
+            this.Controls.Add(this.customCodeTextBox);
             this.Controls.Add(this.label1);
             this.Name = "customCode";
             this.Text = "customCode";
@@ -78,7 +79,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox customCodeTextBox;
+        private System.Windows.Forms.Button readCodeBtn;
     }
 }
