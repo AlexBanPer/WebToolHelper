@@ -51,5 +51,10 @@ namespace WebToolHelper
             pdoClassTextBox.ReadOnly = false;
             pdoClassTextBox.BackColor = Color.White;
         }
+
+        private void generateBtn_Click(object sender, EventArgs e)
+        {
+            MainMenu.saveNewFile("PHP",pdoClassTextBox.Text, "PDO.class.php");
+        }
     }
 }

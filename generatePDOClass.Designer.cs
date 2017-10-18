@@ -81,6 +81,7 @@
             this.generateBtn.TabIndex = 5;
             this.generateBtn.Text = "Generate Code";
             this.generateBtn.UseVisualStyleBackColor = true;
+            this.generateBtn.Click += new System.EventHandler(this.generateBtn_Click);
             // 
             // hostnameTxtBox
             // 

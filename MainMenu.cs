@@ -21,7 +21,7 @@ namespace WebToolHelper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            saveNewFile("HTML");
+            saveNewFile("HTML", generateHtml());
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,14 +36,16 @@ namespace WebToolHelper
             gPDOc.Show();
         }
 
-        public static void saveNewFile(string type)
+        public static void saveNewFile(string type, string fileContent, string fileTitle = "")
         {
             SaveFileDialog saveFile = new SaveFileDialog();
+            globalVariables.content = fileContent;
+            saveFile.FileName = fileTitle;
             switch (type)
             {
                 case "HTML":
                     saveFile.Filter = "HTML Files|*.html";
-                    globalVariables.content = generateHtml();
+                    
                     break;
                 case "PHP":
                     saveFile.Filter = "PHP Files|*.php";
