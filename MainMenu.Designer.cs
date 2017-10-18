@@ -160,15 +160,15 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 327);
+            this.label4.Location = new System.Drawing.Point(0, 362);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.Size = new System.Drawing.Size(111, 13);
             this.label4.TabIndex = 10;
-            this.label4.Text = "SQL";
+            this.label4.Text = "Program Configuration";
             // 
             // configBtn
             // 
-            this.configBtn.Location = new System.Drawing.Point(0, 343);
+            this.configBtn.Location = new System.Drawing.Point(0, 378);
             this.configBtn.Name = "configBtn";
             this.configBtn.Size = new System.Drawing.Size(204, 23);
             this.configBtn.TabIndex = 11;

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WebToolHelper
@@ -13,6 +6,7 @@ namespace WebToolHelper
     public partial class editCodeFullTab : Form
     {
         private advancedHTML advancedHTMLSetString;
+        private ProgramConfigMenu programConfigMenuSetString;
 
         public editCodeFullTab()
         {
@@ -25,7 +19,6 @@ namespace WebToolHelper
             InitializeComponent();
         }
 
-
         private void editCodeFullTab_Load(object sender, EventArgs e)
         {
             textBox1.Text = globalFunctions.textToEdit;
@@ -33,18 +26,18 @@ namespace WebToolHelper
 
         private void button1_Click(object sender, EventArgs e)
         {
-            switch (globalFunctions.tabToSet)
-            {
-                case "Meta":
-                    advancedHTMLSetString.setMetaTextBox = textBox1.Text;
-                    break;
-                case "NavBar":
-                    advancedHTMLSetString.setNavBarTextBox = textBox1.Text;
-                    break;
-                default:
-                    MessageBox.Show("Nombre de TAB para el editor no encontrado!");
-                    break;
-            }
+              switch (globalFunctions.tabToSet)
+              {
+                    case "Meta":
+                        advancedHTMLSetString.setMetaTextBox = textBox1.Text;
+                        break;
+                    case "NavBar":
+                        advancedHTMLSetString.setNavBarTextBox = textBox1.Text;
+                        break;
+                    default:
+                        MessageBox.Show("Nombre de TAB para el editor no encontrado!");
+                        break;
+                }
             this.Close();
         }
 

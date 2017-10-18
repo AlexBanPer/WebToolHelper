@@ -43,7 +43,8 @@ namespace WebToolHelper
 
         private void configBtn_Click(object sender, EventArgs e)
         {
-
+            ProgramConfigMenu PCM = new ProgramConfigMenu();
+            PCM.Show();
         }
     }
 }
