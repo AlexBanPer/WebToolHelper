@@ -10,6 +10,10 @@ namespace WebToolHelper
 {
     class globalFunctions
     {
+        // set tab for guide
+        public static String tabguide = "";
+
+        // set content for X tab on advanced HTML
         public static String textToEdit = "";
         public static String tabToSet = "";
 

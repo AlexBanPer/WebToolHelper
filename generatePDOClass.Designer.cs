@@ -40,6 +40,7 @@
             this.dbPassTxtBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.editCodeBtn = new System.Windows.Forms.Button();
+            this.guideBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // pdoClassTextBox
@@ -149,12 +150,23 @@
             this.editCodeBtn.UseVisualStyleBackColor = true;
             this.editCodeBtn.Click += new System.EventHandler(this.editCodeBtn_Click);
             // 
+            // guideBtn
+            // 
+            this.guideBtn.Location = new System.Drawing.Point(15, 268);
+            this.guideBtn.Name = "guideBtn";
+            this.guideBtn.Size = new System.Drawing.Size(148, 20);
+            this.guideBtn.TabIndex = 14;
+            this.guideBtn.Text = "Guide";
+            this.guideBtn.UseVisualStyleBackColor = true;
+            this.guideBtn.Click += new System.EventHandler(this.guideBtn_Click);
+            // 
             // generatePDOClass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(789, 474);
+            this.Controls.Add(this.guideBtn);
             this.Controls.Add(this.editCodeBtn);
             this.Controls.Add(this.dbPassTxtBox);
             this.Controls.Add(this.label4);
@@ -188,5 +200,6 @@
         private System.Windows.Forms.TextBox dbPassTxtBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button editCodeBtn;
+        private System.Windows.Forms.Button guideBtn;
     }
 }

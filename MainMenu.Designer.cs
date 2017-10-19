@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.menuPanel = new System.Windows.Forms.Panel();
+            this.configBtn = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.generatePDOBtn = new System.Windows.Forms.Button();
@@ -40,29 +42,46 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.saveBasicHTML = new System.Windows.Forms.SaveFileDialog();
-            this.label4 = new System.Windows.Forms.Label();
-            this.configBtn = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
+            this.menuPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // menuPanel
             // 
-            this.panel1.Controls.Add(this.configBtn);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.generatePDOBtn);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(210, 414);
-            this.panel1.TabIndex = 0;
+            this.menuPanel.Controls.Add(this.configBtn);
+            this.menuPanel.Controls.Add(this.label4);
+            this.menuPanel.Controls.Add(this.button7);
+            this.menuPanel.Controls.Add(this.label3);
+            this.menuPanel.Controls.Add(this.generatePDOBtn);
+            this.menuPanel.Controls.Add(this.button5);
+            this.menuPanel.Controls.Add(this.button3);
+            this.menuPanel.Controls.Add(this.label2);
+            this.menuPanel.Controls.Add(this.button4);
+            this.menuPanel.Controls.Add(this.button2);
+            this.menuPanel.Controls.Add(this.label1);
+            this.menuPanel.Controls.Add(this.button1);
+            this.menuPanel.Location = new System.Drawing.Point(12, 12);
+            this.menuPanel.Name = "menuPanel";
+            this.menuPanel.Size = new System.Drawing.Size(210, 414);
+            this.menuPanel.TabIndex = 0;
+            // 
+            // configBtn
+            // 
+            this.configBtn.Location = new System.Drawing.Point(0, 378);
+            this.configBtn.Name = "configBtn";
+            this.configBtn.Size = new System.Drawing.Size(204, 23);
+            this.configBtn.TabIndex = 11;
+            this.configBtn.Text = "Configurator";
+            this.configBtn.UseVisualStyleBackColor = true;
+            this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(0, 362);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(111, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Program Configuration";
             // 
             // button7
             // 
@@ -157,42 +176,24 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(0, 362);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 13);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Program Configuration";
-            // 
-            // configBtn
-            // 
-            this.configBtn.Location = new System.Drawing.Point(0, 378);
-            this.configBtn.Name = "configBtn";
-            this.configBtn.Size = new System.Drawing.Size(204, 23);
-            this.configBtn.TabIndex = 11;
-            this.configBtn.Text = "Configurator";
-            this.configBtn.UseVisualStyleBackColor = true;
-            this.configBtn.Click += new System.EventHandler(this.configBtn_Click);
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 438);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.menuPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "MainMenu";
             this.Text = "WebToolHelper";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.menuPanel.ResumeLayout(false);
+            this.menuPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel menuPanel;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;

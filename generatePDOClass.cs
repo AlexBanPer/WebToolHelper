@@ -56,5 +56,12 @@ namespace WebToolHelper
         {
             globalFunctions.saveNewFile("PHP",pdoClassTextBox.Text, "PDO.class.php");
         }
+
+        private void guideBtn_Click(object sender, EventArgs e)
+        {
+            guide guide = new guide();
+            guide.Show();
+            guide.showGuide("PDOClass");
+        }
     }
 }

@@ -74,6 +74,12 @@
     <Compile Include="generatePDOClass.Designer.cs">
       <DependentUpon>generatePDOClass.cs</DependentUpon>
     </Compile>
+    <Compile Include="guide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guide.Designer.cs">
+      <DependentUpon>guide.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="generatePDOClass.resx">
       <DependentUpon>generatePDOClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guide.resx">
+      <DependentUpon>guide.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>
