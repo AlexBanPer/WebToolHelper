@@ -84,82 +84,102 @@ namespace WebToolHelper
             if (value.Contains(3))
             {
                 checkBoxBlog.Enabled = toSet;
+                checkBoxBlog.Checked = checkedmark;
             }
             if (value.Contains(4)) 
             {
                 checkBoxTBest.Enabled = toSet;
+                checkBoxTBest.Checked = checkedmark;
             }
             if (value.Contains(5))
             {
                 checkBoxInfoPanel.Enabled = toSet;
+                checkBoxInfoPanel.Checked = checkedmark;
             }
             if (value.Contains(6))
             {
                 checkBox3Row.Enabled = toSet;
+                checkBox3Row.Checked = checkedmark;
             }
             if (value.Contains(7))
             {
                 checkBoxSearch.Enabled = toSet;
+                checkBoxSearch.Checked = checkedmark;
             }
             if (value.Contains(8))
             {
                 checkBoxPortfolio.Enabled = toSet;
+                checkBoxPortfolio.Checked = checkedmark;
             }
             if (value.Contains(9))
             {
                 checkBoxComment.Enabled = toSet;
+                checkBoxComment.Checked = checkedmark;
             }
             if (value.Contains(10))
             {
                 checkBoxPictures.Enabled = toSet;
+                checkBoxPictures.Checked = checkedmark;
             }
             if (value.Contains(11))
             {
                 checkBoxContact.Enabled = toSet;
+                checkBoxContact.Checked = checkedmark;
             }
             if (value.Contains(12))
             {
                 checkBoxCTable.Enabled = toSet;
+                checkBoxCTable.Checked = checkedmark;
             }
             if (value.Contains(13))
             {
                 checkBoxCarousel.Enabled = toSet;
+                checkBoxCarousel.Checked = checkedmark;
             }
             if (value.Contains(14))
             {
                 checkBoxCards.Enabled = toSet;
+                checkBoxCards.Checked = checkedmark;
             }
             if (value.Contains(15))
             {
                 checkBoxProgressBar.Enabled = toSet;
+                checkBoxProgressBar.Checked = checkedmark;
             }
             if (value.Contains(16))
             {
                 checkBoxNavs.Enabled = toSet;
+                checkBoxNavs.Checked = checkedmark;
             }
             if (value.Contains(17))
             {
                 checkBoxMaintenance.Enabled = toSet;
+                checkBoxMaintenance.Checked = checkedmark;
             }
             if (value.Contains(18))
             {
                 checkBoxPoll.Enabled = toSet;
+                checkBoxPoll.Checked = checkedmark;
             }
             if (value.Contains(19))
             {
                 checkBoxSubs.Enabled = toSet;
+                checkBoxSubs.Checked = checkedmark;
             }
             if (value.Contains(20))
             {
                 checkBoxRegister.Enabled = toSet;
+                checkBoxRegister.Checked = checkedmark;
             }
             if (value.Contains(21))
             {
                 checkBoxLogin.Enabled = toSet;
+                checkBoxLogin.Checked = checkedmark;
             }
             if (value.Contains(22))
             {
                 checkBoxFooter.Enabled = toSet;
+                checkBoxFooter.Checked = checkedmark;
             }
         }
 
@@ -226,6 +246,40 @@ namespace WebToolHelper
             globalFunctions.textToEdit = textToEdit;
             globalFunctions.tabToSet = "NavBar";
             openNewTab();
+        }
+
+        private void savevars_btn(object sender, EventArgs e)
+        {
+            string title = siteTitleTxt.Text;
+            string version = siteVersionTxt.Text;
+            string copy = siteCopyTxt.Text;
+            string domain = siteDomainTxt.Text;
+
+            if(title == "")
+            {
+                MessageBox.Show("Title is empty, has been replaced by default text");
+                title = "My Site Title";
+                siteTitleTxt.Text = title;
+            }
+            if(version == "")
+            {
+                MessageBox.Show("Version is empty, has been replaced by default text");
+                title = "1.0.0";
+                siteVersionTxt.Text = title;
+            }
+            if(copy == "")
+            {
+                MessageBox.Show("Copyright is empty, has been replaced by default text");
+                copy = "MyName 2017 - All rigts reserved.";
+                siteCopyTxt.Text = copy;
+            }
+            if(domain == "")
+            {
+                MessageBox.Show("Domain is empty, has been replaced by default text");
+                domain = "mydomain.com";
+                siteDomainTxt.Text = domain;
+            }
+            MessageBox.Show(title + version + copy + domain);
         }
     }
 }

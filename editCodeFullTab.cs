@@ -6,7 +6,6 @@ namespace WebToolHelper
     public partial class editCodeFullTab : Form
     {
         private advancedHTML advancedHTMLSetString;
-        private ProgramConfigMenu programConfigMenuSetString;
 
         public editCodeFullTab()
         {

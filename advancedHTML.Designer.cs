@@ -33,15 +33,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.siteTitleTxt = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.siteVersionTxt = new System.Windows.Forms.TextBox();
+            this.structureBtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.siteCopyTxt = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.siteDomainTxt = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.checkBoxesPanel = new System.Windows.Forms.Panel();
             this.checkBoxContact = new System.Windows.Forms.CheckBox();
@@ -67,7 +67,7 @@
             this.checkBoxBlog = new System.Windows.Forms.CheckBox();
             this.checkBoxNavBar = new System.Windows.Forms.CheckBox();
             this.checkBoxMeta = new System.Windows.Forms.CheckBox();
-            this.button3 = new System.Windows.Forms.Button();
+            this.saveVarsBtn = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel16 = new System.Windows.Forms.Panel();
             this.button24 = new System.Windows.Forms.Button();
@@ -184,7 +184,6 @@
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
             this.checkBoxesPanel.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -219,7 +218,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(122, 9);
+            this.label1.Location = new System.Drawing.Point(103, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 0;
@@ -268,17 +267,18 @@
             this.panel1.Size = new System.Drawing.Size(10, 486);
             this.panel1.TabIndex = 5;
             // 
-            // textBox1
+            // siteTitleTxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 372);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 20);
-            this.textBox1.TabIndex = 9;
+            this.siteTitleTxt.Location = new System.Drawing.Point(79, 372);
+            this.siteTitleTxt.Name = "siteTitleTxt";
+            this.siteTitleTxt.Size = new System.Drawing.Size(171, 20);
+            this.siteTitleTxt.TabIndex = 9;
+            this.siteTitleTxt.Text = "My Site Title";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 372);
+            this.label8.Location = new System.Drawing.Point(5, 372);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(48, 13);
             this.label8.TabIndex = 10;
@@ -287,27 +287,28 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(15, 407);
+            this.label9.Location = new System.Drawing.Point(5, 407);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(63, 13);
             this.label9.TabIndex = 11;
             this.label9.Text = "Site Version";
             // 
-            // textBox2
+            // siteVersionTxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 404);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(171, 20);
-            this.textBox2.TabIndex = 12;
+            this.siteVersionTxt.Location = new System.Drawing.Point(79, 404);
+            this.siteVersionTxt.Name = "siteVersionTxt";
+            this.siteVersionTxt.Size = new System.Drawing.Size(171, 20);
+            this.siteVersionTxt.TabIndex = 12;
+            this.siteVersionTxt.Text = "1.0.0";
             // 
-            // button1
+            // structureBtn
             // 
-            this.button1.Location = new System.Drawing.Point(275, 500);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(478, 23);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.structureBtn.Location = new System.Drawing.Point(275, 500);
+            this.structureBtn.Name = "structureBtn";
+            this.structureBtn.Size = new System.Drawing.Size(478, 23);
+            this.structureBtn.TabIndex = 13;
+            this.structureBtn.Text = "Set Structure";
+            this.structureBtn.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -318,37 +319,39 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // siteCopyTxt
             // 
-            this.textBox6.Location = new System.Drawing.Point(79, 439);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(171, 20);
-            this.textBox6.TabIndex = 18;
+            this.siteCopyTxt.Location = new System.Drawing.Point(79, 439);
+            this.siteCopyTxt.Name = "siteCopyTxt";
+            this.siteCopyTxt.Size = new System.Drawing.Size(171, 20);
+            this.siteCopyTxt.TabIndex = 18;
+            this.siteCopyTxt.Text = "MyName 2017 - All rigts reserved.";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(15, 442);
+            this.label11.Location = new System.Drawing.Point(5, 442);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 13);
+            this.label11.Size = new System.Drawing.Size(51, 13);
             this.label11.TabIndex = 17;
-            this.label11.Text = "CopyRight";
+            this.label11.Text = "Copyright";
             // 
-            // textBox7
+            // siteDomainTxt
             // 
-            this.textBox7.Location = new System.Drawing.Point(79, 467);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(171, 20);
-            this.textBox7.TabIndex = 20;
+            this.siteDomainTxt.Location = new System.Drawing.Point(79, 467);
+            this.siteDomainTxt.Name = "siteDomainTxt";
+            this.siteDomainTxt.Size = new System.Drawing.Size(171, 20);
+            this.siteDomainTxt.TabIndex = 20;
+            this.siteDomainTxt.Text = "mydomain.com";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(15, 470);
+            this.label12.Location = new System.Drawing.Point(5, 470);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.Size = new System.Drawing.Size(69, 13);
             this.label12.TabIndex = 19;
-            this.label12.Text = "label12";
+            this.label12.Text = "Main Domain";
             // 
             // checkBoxesPanel
             // 
@@ -634,14 +637,15 @@
             this.checkBoxMeta.Text = "Custom Meta";
             this.checkBoxMeta.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // saveVarsBtn
             // 
-            this.button3.Location = new System.Drawing.Point(78, 493);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(172, 23);
-            this.button3.TabIndex = 23;
-            this.button3.Text = "Save";
-            this.button3.UseVisualStyleBackColor = true;
+            this.saveVarsBtn.Location = new System.Drawing.Point(78, 493);
+            this.saveVarsBtn.Name = "saveVarsBtn";
+            this.saveVarsBtn.Size = new System.Drawing.Size(172, 23);
+            this.saveVarsBtn.TabIndex = 23;
+            this.saveVarsBtn.Text = "Save";
+            this.saveVarsBtn.UseVisualStyleBackColor = true;
+            this.saveVarsBtn.Click += new System.EventHandler(this.savevars_btn);
             // 
             // tabPage3
             // 
@@ -1807,35 +1811,24 @@
             this.button39.Text = "Edit on Tab";
             this.button39.UseVisualStyleBackColor = true;
             // 
-            // button40
-            // 
-            this.button40.Location = new System.Drawing.Point(18, 9);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(75, 23);
-            this.button40.TabIndex = 25;
-            this.button40.Text = "button40";
-            this.button40.UseVisualStyleBackColor = true;
-            this.button40.Click += new System.EventHandler(this.button40_Click);
-            // 
             // advancedHTML
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 526);
-            this.Controls.Add(this.button40);
             this.Controls.Add(this.tabControl);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.saveVarsBtn);
             this.Controls.Add(this.checkBoxesPanel);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.siteDomainTxt);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.siteCopyTxt);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.structureBtn);
+            this.Controls.Add(this.siteVersionTxt);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.siteTitleTxt);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -1911,15 +1904,15 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox siteTitleTxt;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox siteVersionTxt;
+        private System.Windows.Forms.Button structureBtn;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox siteCopyTxt;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox siteDomainTxt;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel checkBoxesPanel;
         private System.Windows.Forms.CheckBox checkBoxContact;
@@ -1945,7 +1938,7 @@
         private System.Windows.Forms.CheckBox checkBoxNavBar;
         private System.Windows.Forms.CheckBox checkBoxMeta;
         private System.Windows.Forms.Button saveBtn;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button saveVarsBtn;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Button button24;
@@ -2062,6 +2055,5 @@
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button40;
     }
 }
