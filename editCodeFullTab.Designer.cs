@@ -39,8 +39,8 @@
             this.textBox1.Location = new System.Drawing.Point(0, -1);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(772, 471);
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.textBox1.Size = new System.Drawing.Size(991, 480);
             this.textBox1.TabIndex = 0;
             // 
             // contextMenuStrip1
@@ -50,9 +50,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 476);
+            this.button1.Location = new System.Drawing.Point(0, 495);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(772, 23);
+            this.button1.Size = new System.Drawing.Size(991, 23);
             this.button1.TabIndex = 2;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,9 +62,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(773, 501);
+            this.ClientSize = new System.Drawing.Size(993, 520);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "editCodeFullTab";
             this.Text = "editCodeFullTab";
             this.Load += new System.EventHandler(this.editCodeFullTab_Load);

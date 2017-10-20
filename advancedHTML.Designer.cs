@@ -44,106 +44,31 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.checkBoxesPanel = new System.Windows.Forms.Panel();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.checkBoxContact = new System.Windows.Forms.CheckBox();
             this.saveBtn = new System.Windows.Forms.Button();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBoxFooter = new System.Windows.Forms.CheckBox();
+            this.checkBoxPictures = new System.Windows.Forms.CheckBox();
+            this.checkBoxComment = new System.Windows.Forms.CheckBox();
+            this.checkBoxLogin = new System.Windows.Forms.CheckBox();
+            this.checkBoxRegister = new System.Windows.Forms.CheckBox();
+            this.checkBoxSubs = new System.Windows.Forms.CheckBox();
+            this.checkBoxPoll = new System.Windows.Forms.CheckBox();
+            this.checkBoxPortfolio = new System.Windows.Forms.CheckBox();
+            this.checkBoxSearch = new System.Windows.Forms.CheckBox();
+            this.checkBoxMaintenance = new System.Windows.Forms.CheckBox();
+            this.checkBoxNavs = new System.Windows.Forms.CheckBox();
+            this.checkBoxProgressBar = new System.Windows.Forms.CheckBox();
+            this.checkBoxCards = new System.Windows.Forms.CheckBox();
+            this.checkBoxCarousel = new System.Windows.Forms.CheckBox();
+            this.checkBoxCTable = new System.Windows.Forms.CheckBox();
+            this.checkBox3Row = new System.Windows.Forms.CheckBox();
+            this.checkBoxInfoPanel = new System.Windows.Forms.CheckBox();
+            this.checkBoxTBest = new System.Windows.Forms.CheckBox();
             this.checkBoxBlog = new System.Windows.Forms.CheckBox();
             this.checkBoxNavBar = new System.Windows.Forms.CheckBox();
             this.checkBoxMeta = new System.Windows.Forms.CheckBox();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.customNavbarPanel = new System.Windows.Forms.Panel();
-            this.editOnTabBTN2 = new System.Windows.Forms.Button();
-            this.getDefaultNavbar = new System.Windows.Forms.Button();
-            this.navbarTextBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.customMetaPanel = new System.Windows.Forms.Panel();
-            this.editOnTabBTN = new System.Windows.Forms.Button();
-            this.getDefaultMeta = new System.Windows.Forms.Button();
-            this.metaTextBox = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.button19 = new System.Windows.Forms.Button();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.button24 = new System.Windows.Forms.Button();
             this.textBox19 = new System.Windows.Forms.TextBox();
@@ -180,27 +105,88 @@
             this.button35 = new System.Windows.Forms.Button();
             this.textBox26 = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.button19 = new System.Windows.Forms.Button();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.tabPage = new System.Windows.Forms.TabPage();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.customNavbarPanel = new System.Windows.Forms.Panel();
+            this.editOnTabBTN2 = new System.Windows.Forms.Button();
+            this.getDefaultNavbar = new System.Windows.Forms.Button();
+            this.navbarTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.customMetaPanel = new System.Windows.Forms.Panel();
+            this.editOnTabBTN = new System.Windows.Forms.Button();
+            this.getDefaultMeta = new System.Windows.Forms.Button();
+            this.metaTextBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.button36 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button38 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
             this.checkBoxesPanel.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel7.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.customNavbarPanel.SuspendLayout();
-            this.customMetaPanel.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
-            this.panel10.SuspendLayout();
-            this.panel11.SuspendLayout();
-            this.panel12.SuspendLayout();
-            this.panel13.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel15.SuspendLayout();
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
@@ -209,6 +195,25 @@
             this.panel21.SuspendLayout();
             this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.tabPage.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.customNavbarPanel.SuspendLayout();
+            this.customMetaPanel.SuspendLayout();
+            this.tabControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -348,26 +353,26 @@
             // checkBoxesPanel
             // 
             this.checkBoxesPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.checkBoxesPanel.Controls.Add(this.checkBox21);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxContact);
             this.checkBoxesPanel.Controls.Add(this.saveBtn);
-            this.checkBoxesPanel.Controls.Add(this.checkBox22);
-            this.checkBoxesPanel.Controls.Add(this.checkBox19);
-            this.checkBoxesPanel.Controls.Add(this.checkBox20);
-            this.checkBoxesPanel.Controls.Add(this.checkBox15);
-            this.checkBoxesPanel.Controls.Add(this.checkBox16);
-            this.checkBoxesPanel.Controls.Add(this.checkBox17);
-            this.checkBoxesPanel.Controls.Add(this.checkBox18);
-            this.checkBoxesPanel.Controls.Add(this.checkBox13);
-            this.checkBoxesPanel.Controls.Add(this.checkBox14);
-            this.checkBoxesPanel.Controls.Add(this.checkBox7);
-            this.checkBoxesPanel.Controls.Add(this.checkBox8);
-            this.checkBoxesPanel.Controls.Add(this.checkBox9);
-            this.checkBoxesPanel.Controls.Add(this.checkBox10);
-            this.checkBoxesPanel.Controls.Add(this.checkBox11);
-            this.checkBoxesPanel.Controls.Add(this.checkBox12);
-            this.checkBoxesPanel.Controls.Add(this.checkBox4);
-            this.checkBoxesPanel.Controls.Add(this.checkBox5);
-            this.checkBoxesPanel.Controls.Add(this.checkBox6);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxFooter);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxPictures);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxComment);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxLogin);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxRegister);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxSubs);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxPoll);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxPortfolio);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxSearch);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxMaintenance);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxNavs);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxProgressBar);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxCards);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxCarousel);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxCTable);
+            this.checkBoxesPanel.Controls.Add(this.checkBox3Row);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxInfoPanel);
+            this.checkBoxesPanel.Controls.Add(this.checkBoxTBest);
             this.checkBoxesPanel.Controls.Add(this.checkBoxBlog);
             this.checkBoxesPanel.Controls.Add(this.checkBoxNavBar);
             this.checkBoxesPanel.Controls.Add(this.checkBoxMeta);
@@ -377,15 +382,16 @@
             this.checkBoxesPanel.Size = new System.Drawing.Size(194, 284);
             this.checkBoxesPanel.TabIndex = 21;
             // 
-            // checkBox21
+            // checkBoxContact
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(3, 233);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(86, 17);
-            this.checkBox21.TabIndex = 25;
-            this.checkBox21.Text = "checkBox21";
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.checkBoxContact.AutoSize = true;
+            this.checkBoxContact.Enabled = false;
+            this.checkBoxContact.Location = new System.Drawing.Point(3, 233);
+            this.checkBoxContact.Name = "checkBoxContact";
+            this.checkBoxContact.Size = new System.Drawing.Size(89, 17);
+            this.checkBoxContact.TabIndex = 25;
+            this.checkBoxContact.Text = "Contact Form";
+            this.checkBoxContact.UseVisualStyleBackColor = true;
             // 
             // saveBtn
             // 
@@ -397,189 +403,208 @@
             this.saveBtn.UseVisualStyleBackColor = true;
             this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
-            // checkBox22
+            // checkBoxFooter
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(103, 233);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(86, 17);
-            this.checkBox22.TabIndex = 24;
-            this.checkBox22.Text = "checkBox22";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.checkBoxFooter.AutoSize = true;
+            this.checkBoxFooter.Enabled = false;
+            this.checkBoxFooter.Location = new System.Drawing.Point(103, 233);
+            this.checkBoxFooter.Name = "checkBoxFooter";
+            this.checkBoxFooter.Size = new System.Drawing.Size(56, 17);
+            this.checkBoxFooter.TabIndex = 24;
+            this.checkBoxFooter.Text = "Footer";
+            this.checkBoxFooter.UseVisualStyleBackColor = true;
             // 
-            // checkBox19
+            // checkBoxPictures
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(3, 210);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(86, 17);
-            this.checkBox19.TabIndex = 23;
-            this.checkBox19.Text = "checkBox19";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.checkBoxPictures.AutoSize = true;
+            this.checkBoxPictures.Enabled = false;
+            this.checkBoxPictures.Location = new System.Drawing.Point(3, 210);
+            this.checkBoxPictures.Name = "checkBoxPictures";
+            this.checkBoxPictures.Size = new System.Drawing.Size(95, 17);
+            this.checkBoxPictures.TabIndex = 23;
+            this.checkBoxPictures.Text = "Three Pictures";
+            this.checkBoxPictures.UseVisualStyleBackColor = true;
             // 
-            // checkBox20
+            // checkBoxComment
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(3, 187);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(86, 17);
-            this.checkBox20.TabIndex = 22;
-            this.checkBox20.Text = "checkBox20";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.checkBoxComment.AutoSize = true;
+            this.checkBoxComment.Enabled = false;
+            this.checkBoxComment.Location = new System.Drawing.Point(3, 187);
+            this.checkBoxComment.Name = "checkBoxComment";
+            this.checkBoxComment.Size = new System.Drawing.Size(91, 17);
+            this.checkBoxComment.TabIndex = 22;
+            this.checkBoxComment.Text = "Comment Box";
+            this.checkBoxComment.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // checkBoxLogin
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(103, 210);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(86, 17);
-            this.checkBox15.TabIndex = 21;
-            this.checkBox15.Text = "checkBox15";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBoxLogin.AutoSize = true;
+            this.checkBoxLogin.Enabled = false;
+            this.checkBoxLogin.Location = new System.Drawing.Point(103, 210);
+            this.checkBoxLogin.Name = "checkBoxLogin";
+            this.checkBoxLogin.Size = new System.Drawing.Size(78, 17);
+            this.checkBoxLogin.TabIndex = 21;
+            this.checkBoxLogin.Text = "Login Form";
+            this.checkBoxLogin.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // checkBoxRegister
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(103, 187);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(86, 17);
-            this.checkBox16.TabIndex = 20;
-            this.checkBox16.Text = "checkBox16";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBoxRegister.AutoSize = true;
+            this.checkBoxRegister.Enabled = false;
+            this.checkBoxRegister.Location = new System.Drawing.Point(103, 187);
+            this.checkBoxRegister.Name = "checkBoxRegister";
+            this.checkBoxRegister.Size = new System.Drawing.Size(91, 17);
+            this.checkBoxRegister.TabIndex = 20;
+            this.checkBoxRegister.Text = "Register Form";
+            this.checkBoxRegister.UseVisualStyleBackColor = true;
             // 
-            // checkBox17
+            // checkBoxSubs
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(103, 164);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(86, 17);
-            this.checkBox17.TabIndex = 19;
-            this.checkBox17.Text = "checkBox17";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.checkBoxSubs.AutoSize = true;
+            this.checkBoxSubs.Enabled = false;
+            this.checkBoxSubs.Location = new System.Drawing.Point(103, 164);
+            this.checkBoxSubs.Name = "checkBoxSubs";
+            this.checkBoxSubs.Size = new System.Drawing.Size(76, 17);
+            this.checkBoxSubs.TabIndex = 19;
+            this.checkBoxSubs.Text = "Subs Form";
+            this.checkBoxSubs.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // checkBoxPoll
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(103, 141);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(86, 17);
-            this.checkBox18.TabIndex = 18;
-            this.checkBox18.Text = "checkBox18";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.checkBoxPoll.AutoSize = true;
+            this.checkBoxPoll.Enabled = false;
+            this.checkBoxPoll.Location = new System.Drawing.Point(103, 141);
+            this.checkBoxPoll.Name = "checkBoxPoll";
+            this.checkBoxPoll.Size = new System.Drawing.Size(69, 17);
+            this.checkBoxPoll.TabIndex = 18;
+            this.checkBoxPoll.Text = "Poll Form";
+            this.checkBoxPoll.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // checkBoxPortfolio
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(3, 164);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(86, 17);
-            this.checkBox13.TabIndex = 17;
-            this.checkBox13.Text = "checkBox13";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBoxPortfolio.AutoSize = true;
+            this.checkBoxPortfolio.Enabled = false;
+            this.checkBoxPortfolio.Location = new System.Drawing.Point(3, 164);
+            this.checkBoxPortfolio.Name = "checkBoxPortfolio";
+            this.checkBoxPortfolio.Size = new System.Drawing.Size(103, 17);
+            this.checkBoxPortfolio.TabIndex = 17;
+            this.checkBoxPortfolio.Text = "Portfolio Section";
+            this.checkBoxPortfolio.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // checkBoxSearch
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(3, 141);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(86, 17);
-            this.checkBox14.TabIndex = 16;
-            this.checkBox14.Text = "checkBox14";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBoxSearch.AutoSize = true;
+            this.checkBoxSearch.Enabled = false;
+            this.checkBoxSearch.Location = new System.Drawing.Point(3, 141);
+            this.checkBoxSearch.Name = "checkBoxSearch";
+            this.checkBoxSearch.Size = new System.Drawing.Size(83, 17);
+            this.checkBoxSearch.TabIndex = 16;
+            this.checkBoxSearch.Text = "Search Item";
+            this.checkBoxSearch.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // checkBoxMaintenance
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(103, 118);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(80, 17);
-            this.checkBox7.TabIndex = 15;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBoxMaintenance.AutoSize = true;
+            this.checkBoxMaintenance.Enabled = false;
+            this.checkBoxMaintenance.Location = new System.Drawing.Point(103, 118);
+            this.checkBoxMaintenance.Name = "checkBoxMaintenance";
+            this.checkBoxMaintenance.Size = new System.Drawing.Size(88, 17);
+            this.checkBoxMaintenance.TabIndex = 15;
+            this.checkBoxMaintenance.Text = "Maintenance";
+            this.checkBoxMaintenance.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // checkBoxNavs
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(103, 95);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(80, 17);
-            this.checkBox8.TabIndex = 14;
-            this.checkBox8.Text = "checkBox8";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBoxNavs.AutoSize = true;
+            this.checkBoxNavs.Enabled = false;
+            this.checkBoxNavs.Location = new System.Drawing.Point(103, 95);
+            this.checkBoxNavs.Name = "checkBoxNavs";
+            this.checkBoxNavs.Size = new System.Drawing.Size(51, 17);
+            this.checkBoxNavs.TabIndex = 14;
+            this.checkBoxNavs.Text = "Navs";
+            this.checkBoxNavs.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // checkBoxProgressBar
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(103, 72);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(56, 17);
-            this.checkBox9.TabIndex = 13;
-            this.checkBox9.Text = "Footer";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBoxProgressBar.AutoSize = true;
+            this.checkBoxProgressBar.Enabled = false;
+            this.checkBoxProgressBar.Location = new System.Drawing.Point(103, 72);
+            this.checkBoxProgressBar.Name = "checkBoxProgressBar";
+            this.checkBoxProgressBar.Size = new System.Drawing.Size(83, 17);
+            this.checkBoxProgressBar.TabIndex = 13;
+            this.checkBoxProgressBar.Text = "ProgressBar";
+            this.checkBoxProgressBar.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // checkBoxCards
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(103, 49);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(74, 17);
-            this.checkBox10.TabIndex = 12;
-            this.checkBox10.Text = "Blog Entry";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBoxCards.AutoSize = true;
+            this.checkBoxCards.Enabled = false;
+            this.checkBoxCards.Location = new System.Drawing.Point(103, 49);
+            this.checkBoxCards.Name = "checkBoxCards";
+            this.checkBoxCards.Size = new System.Drawing.Size(53, 17);
+            this.checkBoxCards.TabIndex = 12;
+            this.checkBoxCards.Text = "Cards";
+            this.checkBoxCards.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // checkBoxCarousel
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(103, 26);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(62, 17);
-            this.checkBox11.TabIndex = 11;
-            this.checkBox11.Text = "NavBar";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBoxCarousel.AutoSize = true;
+            this.checkBoxCarousel.Enabled = false;
+            this.checkBoxCarousel.Location = new System.Drawing.Point(103, 26);
+            this.checkBoxCarousel.Name = "checkBoxCarousel";
+            this.checkBoxCarousel.Size = new System.Drawing.Size(67, 17);
+            this.checkBoxCarousel.TabIndex = 11;
+            this.checkBoxCarousel.Text = "Carousel";
+            this.checkBoxCarousel.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // checkBoxCTable
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(103, 3);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(88, 17);
-            this.checkBox12.TabIndex = 10;
-            this.checkBox12.Text = "Custom Meta";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBoxCTable.AutoSize = true;
+            this.checkBoxCTable.Enabled = false;
+            this.checkBoxCTable.Location = new System.Drawing.Point(103, 3);
+            this.checkBoxCTable.Name = "checkBoxCTable";
+            this.checkBoxCTable.Size = new System.Drawing.Size(91, 17);
+            this.checkBoxCTable.TabIndex = 10;
+            this.checkBoxCTable.Text = "Custom Table";
+            this.checkBoxCTable.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBox3Row
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(3, 118);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
-            this.checkBox4.TabIndex = 9;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox3Row.AutoSize = true;
+            this.checkBox3Row.Enabled = false;
+            this.checkBox3Row.Location = new System.Drawing.Point(3, 118);
+            this.checkBox3Row.Name = "checkBox3Row";
+            this.checkBox3Row.Size = new System.Drawing.Size(79, 17);
+            this.checkBox3Row.TabIndex = 9;
+            this.checkBox3Row.Text = "Three Row";
+            this.checkBox3Row.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBoxInfoPanel
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(3, 95);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(80, 17);
-            this.checkBox5.TabIndex = 8;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBoxInfoPanel.AutoSize = true;
+            this.checkBoxInfoPanel.Enabled = false;
+            this.checkBoxInfoPanel.Location = new System.Drawing.Point(3, 95);
+            this.checkBoxInfoPanel.Name = "checkBoxInfoPanel";
+            this.checkBoxInfoPanel.Size = new System.Drawing.Size(74, 17);
+            this.checkBoxInfoPanel.TabIndex = 8;
+            this.checkBoxInfoPanel.Text = "Info Panel";
+            this.checkBoxInfoPanel.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // checkBoxTBest
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(3, 72);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(56, 17);
-            this.checkBox6.TabIndex = 7;
-            this.checkBox6.Text = "Footer";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBoxTBest.AutoSize = true;
+            this.checkBoxTBest.Enabled = false;
+            this.checkBoxTBest.Location = new System.Drawing.Point(3, 72);
+            this.checkBoxTBest.Name = "checkBoxTBest";
+            this.checkBoxTBest.Size = new System.Drawing.Size(78, 17);
+            this.checkBoxTBest.TabIndex = 7;
+            this.checkBoxTBest.Text = "Three Best";
+            this.checkBoxTBest.UseVisualStyleBackColor = true;
             // 
             // checkBoxBlog
             // 
             this.checkBoxBlog.AutoSize = true;
+            this.checkBoxBlog.Enabled = false;
             this.checkBoxBlog.Location = new System.Drawing.Point(3, 49);
             this.checkBoxBlog.Name = "checkBoxBlog";
             this.checkBoxBlog.Size = new System.Drawing.Size(74, 17);
@@ -590,6 +615,7 @@
             // checkBoxNavBar
             // 
             this.checkBoxNavBar.AutoSize = true;
+            this.checkBoxNavBar.Enabled = false;
             this.checkBoxNavBar.Location = new System.Drawing.Point(3, 26);
             this.checkBoxNavBar.Name = "checkBoxNavBar";
             this.checkBoxNavBar.Size = new System.Drawing.Size(62, 17);
@@ -600,6 +626,7 @@
             // checkBoxMeta
             // 
             this.checkBoxMeta.AutoSize = true;
+            this.checkBoxMeta.Enabled = false;
             this.checkBoxMeta.Location = new System.Drawing.Point(3, 3);
             this.checkBoxMeta.Name = "checkBoxMeta";
             this.checkBoxMeta.Size = new System.Drawing.Size(88, 17);
@@ -633,757 +660,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.panel8);
-            this.tabPage2.Controls.Add(this.panel9);
-            this.tabPage2.Controls.Add(this.panel10);
-            this.tabPage2.Controls.Add(this.panel11);
-            this.tabPage2.Controls.Add(this.panel12);
-            this.tabPage2.Controls.Add(this.panel13);
-            this.tabPage2.Controls.Add(this.panel14);
-            this.tabPage2.Controls.Add(this.panel15);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(995, 467);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.panel2);
-            this.tabPage1.Controls.Add(this.panel5);
-            this.tabPage1.Controls.Add(this.panel6);
-            this.tabPage1.Controls.Add(this.panel7);
-            this.tabPage1.Controls.Add(this.panel4);
-            this.tabPage1.Controls.Add(this.panel3);
-            this.tabPage1.Controls.Add(this.customNavbarPanel);
-            this.tabPage1.Controls.Add(this.customMetaPanel);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(995, 467);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Location = new System.Drawing.Point(275, 5);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1003, 493);
-            this.tabControl1.TabIndex = 24;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.label13);
-            this.panel2.Enabled = false;
-            this.panel2.Location = new System.Drawing.Point(499, 351);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(490, 109);
-            this.panel2.TabIndex = 36;
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(6, 45);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Get Default";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(81, 5);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox3.Size = new System.Drawing.Size(406, 101);
-            this.textBox3.TabIndex = 7;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(3, 29);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 13);
-            this.label13.TabIndex = 6;
-            this.label13.Text = "Custom Meta";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel5.Controls.Add(this.button7);
-            this.panel5.Controls.Add(this.textBox8);
-            this.panel5.Controls.Add(this.label14);
-            this.panel5.Enabled = false;
-            this.panel5.Location = new System.Drawing.Point(499, 234);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(487, 109);
-            this.panel5.TabIndex = 34;
-            // 
-            // button7
-            // 
-            this.button7.Location = new System.Drawing.Point(6, 45);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Get Default";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(81, 5);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox8.Size = new System.Drawing.Size(403, 101);
-            this.textBox8.TabIndex = 7;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 29);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(69, 13);
-            this.label14.TabIndex = 6;
-            this.label14.Text = "Custom Meta";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel6.Controls.Add(this.button8);
-            this.panel6.Controls.Add(this.button9);
-            this.panel6.Controls.Add(this.textBox9);
-            this.panel6.Controls.Add(this.label15);
-            this.panel6.Enabled = false;
-            this.panel6.Location = new System.Drawing.Point(499, 122);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(487, 109);
-            this.panel6.TabIndex = 35;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(3, 53);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "Edit on Tab";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(3, 24);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Get Default";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(81, 5);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox9.Size = new System.Drawing.Size(403, 101);
-            this.textBox9.TabIndex = 7;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 8);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(81, 13);
-            this.label15.TabIndex = 6;
-            this.label15.Text = "Custom NavBar";
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel7.Controls.Add(this.button10);
-            this.panel7.Controls.Add(this.button11);
-            this.panel7.Controls.Add(this.textBox10);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Enabled = false;
-            this.panel7.Location = new System.Drawing.Point(499, 7);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(487, 109);
-            this.panel7.TabIndex = 33;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(3, 54);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "Edit on Tab";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(3, 25);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 8;
-            this.button11.Text = "Set Default";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(81, 5);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox10.Size = new System.Drawing.Size(403, 101);
-            this.textBox10.TabIndex = 7;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 8);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(69, 13);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "Custom Meta";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.textBox5);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Enabled = false;
-            this.panel4.Location = new System.Drawing.Point(6, 351);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(490, 109);
-            this.panel4.TabIndex = 32;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(6, 45);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 8;
-            this.button5.Text = "Get Default";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(81, 5);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(406, 101);
-            this.textBox5.TabIndex = 7;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(3, 29);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Custom Meta";
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.textBox4);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Enabled = false;
-            this.panel3.Location = new System.Drawing.Point(6, 234);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(487, 109);
-            this.panel3.TabIndex = 30;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(6, 45);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Get Default";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(81, 5);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox4.Size = new System.Drawing.Size(403, 101);
-            this.textBox4.TabIndex = 7;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(3, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 13);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Custom Meta";
-            // 
-            // customNavbarPanel
-            // 
-            this.customNavbarPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.customNavbarPanel.Controls.Add(this.editOnTabBTN2);
-            this.customNavbarPanel.Controls.Add(this.getDefaultNavbar);
-            this.customNavbarPanel.Controls.Add(this.navbarTextBox);
-            this.customNavbarPanel.Controls.Add(this.label5);
-            this.customNavbarPanel.Enabled = false;
-            this.customNavbarPanel.Location = new System.Drawing.Point(6, 122);
-            this.customNavbarPanel.Name = "customNavbarPanel";
-            this.customNavbarPanel.Size = new System.Drawing.Size(487, 109);
-            this.customNavbarPanel.TabIndex = 31;
-            // 
-            // editOnTabBTN2
-            // 
-            this.editOnTabBTN2.Location = new System.Drawing.Point(3, 53);
-            this.editOnTabBTN2.Name = "editOnTabBTN2";
-            this.editOnTabBTN2.Size = new System.Drawing.Size(75, 23);
-            this.editOnTabBTN2.TabIndex = 10;
-            this.editOnTabBTN2.Text = "Edit on Tab";
-            this.editOnTabBTN2.UseVisualStyleBackColor = true;
-            // 
-            // getDefaultNavbar
-            // 
-            this.getDefaultNavbar.Location = new System.Drawing.Point(3, 24);
-            this.getDefaultNavbar.Name = "getDefaultNavbar";
-            this.getDefaultNavbar.Size = new System.Drawing.Size(75, 23);
-            this.getDefaultNavbar.TabIndex = 8;
-            this.getDefaultNavbar.Text = "Get Default";
-            this.getDefaultNavbar.UseVisualStyleBackColor = true;
-            // 
-            // navbarTextBox
-            // 
-            this.navbarTextBox.Location = new System.Drawing.Point(81, 5);
-            this.navbarTextBox.Multiline = true;
-            this.navbarTextBox.Name = "navbarTextBox";
-            this.navbarTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.navbarTextBox.Size = new System.Drawing.Size(403, 101);
-            this.navbarTextBox.TabIndex = 7;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(3, 8);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Custom NavBar";
-            // 
-            // customMetaPanel
-            // 
-            this.customMetaPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.customMetaPanel.Controls.Add(this.editOnTabBTN);
-            this.customMetaPanel.Controls.Add(this.getDefaultMeta);
-            this.customMetaPanel.Controls.Add(this.metaTextBox);
-            this.customMetaPanel.Controls.Add(this.label4);
-            this.customMetaPanel.Enabled = false;
-            this.customMetaPanel.Location = new System.Drawing.Point(6, 7);
-            this.customMetaPanel.Name = "customMetaPanel";
-            this.customMetaPanel.Size = new System.Drawing.Size(487, 109);
-            this.customMetaPanel.TabIndex = 29;
-            // 
-            // editOnTabBTN
-            // 
-            this.editOnTabBTN.Location = new System.Drawing.Point(3, 54);
-            this.editOnTabBTN.Name = "editOnTabBTN";
-            this.editOnTabBTN.Size = new System.Drawing.Size(75, 23);
-            this.editOnTabBTN.TabIndex = 9;
-            this.editOnTabBTN.Text = "Edit on Tab";
-            this.editOnTabBTN.UseVisualStyleBackColor = true;
-            // 
-            // getDefaultMeta
-            // 
-            this.getDefaultMeta.Location = new System.Drawing.Point(3, 25);
-            this.getDefaultMeta.Name = "getDefaultMeta";
-            this.getDefaultMeta.Size = new System.Drawing.Size(75, 23);
-            this.getDefaultMeta.TabIndex = 8;
-            this.getDefaultMeta.Text = "Set Default";
-            this.getDefaultMeta.UseVisualStyleBackColor = true;
-            // 
-            // metaTextBox
-            // 
-            this.metaTextBox.Location = new System.Drawing.Point(81, 5);
-            this.metaTextBox.Multiline = true;
-            this.metaTextBox.Name = "metaTextBox";
-            this.metaTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.metaTextBox.Size = new System.Drawing.Size(403, 101);
-            this.metaTextBox.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 8);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Custom Meta";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel8.Controls.Add(this.button12);
-            this.panel8.Controls.Add(this.textBox11);
-            this.panel8.Controls.Add(this.label10);
-            this.panel8.Enabled = false;
-            this.panel8.Location = new System.Drawing.Point(499, 351);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(490, 109);
-            this.panel8.TabIndex = 36;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(6, 45);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 8;
-            this.button12.Text = "Get Default";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(81, 5);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox11.Size = new System.Drawing.Size(406, 101);
-            this.textBox11.TabIndex = 7;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(3, 29);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(69, 13);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "Custom Meta";
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel9.Controls.Add(this.button13);
-            this.panel9.Controls.Add(this.textBox12);
-            this.panel9.Controls.Add(this.label17);
-            this.panel9.Enabled = false;
-            this.panel9.Location = new System.Drawing.Point(499, 234);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(487, 109);
-            this.panel9.TabIndex = 34;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(6, 45);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 8;
-            this.button13.Text = "Get Default";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(81, 5);
-            this.textBox12.Multiline = true;
-            this.textBox12.Name = "textBox12";
-            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox12.Size = new System.Drawing.Size(403, 101);
-            this.textBox12.TabIndex = 7;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 29);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(69, 13);
-            this.label17.TabIndex = 6;
-            this.label17.Text = "Custom Meta";
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel10.Controls.Add(this.button14);
-            this.panel10.Controls.Add(this.button15);
-            this.panel10.Controls.Add(this.textBox13);
-            this.panel10.Controls.Add(this.label18);
-            this.panel10.Enabled = false;
-            this.panel10.Location = new System.Drawing.Point(499, 122);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(487, 109);
-            this.panel10.TabIndex = 35;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(3, 53);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 10;
-            this.button14.Text = "Edit on Tab";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(3, 24);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 8;
-            this.button15.Text = "Get Default";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(81, 5);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox13.Size = new System.Drawing.Size(403, 101);
-            this.textBox13.TabIndex = 7;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 8);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(81, 13);
-            this.label18.TabIndex = 6;
-            this.label18.Text = "Custom NavBar";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel11.Controls.Add(this.button16);
-            this.panel11.Controls.Add(this.button17);
-            this.panel11.Controls.Add(this.textBox14);
-            this.panel11.Controls.Add(this.label19);
-            this.panel11.Enabled = false;
-            this.panel11.Location = new System.Drawing.Point(499, 7);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(487, 109);
-            this.panel11.TabIndex = 33;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(3, 54);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 9;
-            this.button16.Text = "Edit on Tab";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(3, 25);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 8;
-            this.button17.Text = "Set Default";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(81, 5);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox14.Size = new System.Drawing.Size(403, 101);
-            this.textBox14.TabIndex = 7;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(6, 8);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(69, 13);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "Custom Meta";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel12.Controls.Add(this.button18);
-            this.panel12.Controls.Add(this.textBox15);
-            this.panel12.Controls.Add(this.label20);
-            this.panel12.Enabled = false;
-            this.panel12.Location = new System.Drawing.Point(6, 351);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(490, 109);
-            this.panel12.TabIndex = 32;
-            // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(6, 45);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 8;
-            this.button18.Text = "Get Default";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // textBox15
-            // 
-            this.textBox15.Location = new System.Drawing.Point(81, 5);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox15.Size = new System.Drawing.Size(406, 101);
-            this.textBox15.TabIndex = 7;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 29);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(69, 13);
-            this.label20.TabIndex = 6;
-            this.label20.Text = "Custom Meta";
-            // 
-            // panel13
-            // 
-            this.panel13.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel13.Controls.Add(this.button19);
-            this.panel13.Controls.Add(this.textBox16);
-            this.panel13.Controls.Add(this.label21);
-            this.panel13.Enabled = false;
-            this.panel13.Location = new System.Drawing.Point(6, 234);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(487, 109);
-            this.panel13.TabIndex = 30;
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(6, 45);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 8;
-            this.button19.Text = "Get Default";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // textBox16
-            // 
-            this.textBox16.Location = new System.Drawing.Point(81, 5);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox16.Size = new System.Drawing.Size(403, 101);
-            this.textBox16.TabIndex = 7;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 29);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(69, 13);
-            this.label21.TabIndex = 6;
-            this.label21.Text = "Custom Meta";
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel14.Controls.Add(this.button20);
-            this.panel14.Controls.Add(this.button21);
-            this.panel14.Controls.Add(this.textBox17);
-            this.panel14.Controls.Add(this.label22);
-            this.panel14.Enabled = false;
-            this.panel14.Location = new System.Drawing.Point(6, 122);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(487, 109);
-            this.panel14.TabIndex = 31;
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(3, 53);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 10;
-            this.button20.Text = "Edit on Tab";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(3, 24);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 8;
-            this.button21.Text = "Get Default";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(81, 5);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox17.Size = new System.Drawing.Size(403, 101);
-            this.textBox17.TabIndex = 7;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(3, 8);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(81, 13);
-            this.label22.TabIndex = 6;
-            this.label22.Text = "Custom NavBar";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel15.Controls.Add(this.button22);
-            this.panel15.Controls.Add(this.button23);
-            this.panel15.Controls.Add(this.textBox18);
-            this.panel15.Controls.Add(this.label23);
-            this.panel15.Enabled = false;
-            this.panel15.Location = new System.Drawing.Point(6, 7);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(487, 109);
-            this.panel15.TabIndex = 29;
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(3, 54);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 9;
-            this.button22.Text = "Edit on Tab";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Location = new System.Drawing.Point(3, 25);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 8;
-            this.button23.Text = "Set Default";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(81, 5);
-            this.textBox18.Multiline = true;
-            this.textBox18.Name = "textBox18";
-            this.textBox18.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox18.Size = new System.Drawing.Size(403, 101);
-            this.textBox18.TabIndex = 7;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(6, 8);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(69, 13);
-            this.label23.TabIndex = 6;
-            this.label23.Text = "Custom Meta";
             // 
             // panel16
             // 
@@ -1737,12 +1013,817 @@
             this.label31.TabIndex = 6;
             this.label31.Text = "Custom Meta";
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.panel8);
+            this.tabPage2.Controls.Add(this.panel9);
+            this.tabPage2.Controls.Add(this.panel10);
+            this.tabPage2.Controls.Add(this.panel11);
+            this.tabPage2.Controls.Add(this.panel12);
+            this.tabPage2.Controls.Add(this.panel13);
+            this.tabPage2.Controls.Add(this.panel14);
+            this.tabPage2.Controls.Add(this.panel15);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(995, 467);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel8.Controls.Add(this.button12);
+            this.panel8.Controls.Add(this.textBox11);
+            this.panel8.Controls.Add(this.label10);
+            this.panel8.Enabled = false;
+            this.panel8.Location = new System.Drawing.Point(499, 351);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(490, 109);
+            this.panel8.TabIndex = 36;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(6, 45);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 8;
+            this.button12.Text = "Get Default";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(81, 5);
+            this.textBox11.Multiline = true;
+            this.textBox11.Name = "textBox11";
+            this.textBox11.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox11.Size = new System.Drawing.Size(406, 101);
+            this.textBox11.TabIndex = 7;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(3, 29);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(69, 13);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "Custom Meta";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel9.Controls.Add(this.button13);
+            this.panel9.Controls.Add(this.textBox12);
+            this.panel9.Controls.Add(this.label17);
+            this.panel9.Enabled = false;
+            this.panel9.Location = new System.Drawing.Point(499, 234);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(487, 109);
+            this.panel9.TabIndex = 34;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(6, 45);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 8;
+            this.button13.Text = "Get Default";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(81, 5);
+            this.textBox12.Multiline = true;
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox12.Size = new System.Drawing.Size(403, 101);
+            this.textBox12.TabIndex = 7;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(3, 29);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(69, 13);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Custom Meta";
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel10.Controls.Add(this.button14);
+            this.panel10.Controls.Add(this.button15);
+            this.panel10.Controls.Add(this.textBox13);
+            this.panel10.Controls.Add(this.label18);
+            this.panel10.Enabled = false;
+            this.panel10.Location = new System.Drawing.Point(499, 122);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(487, 109);
+            this.panel10.TabIndex = 35;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(3, 53);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 10;
+            this.button14.Text = "Edit on Tab";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(3, 24);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 8;
+            this.button15.Text = "Get Default";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(81, 5);
+            this.textBox13.Multiline = true;
+            this.textBox13.Name = "textBox13";
+            this.textBox13.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox13.Size = new System.Drawing.Size(403, 101);
+            this.textBox13.TabIndex = 7;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 8);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(81, 13);
+            this.label18.TabIndex = 6;
+            this.label18.Text = "Custom NavBar";
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel11.Controls.Add(this.button16);
+            this.panel11.Controls.Add(this.button17);
+            this.panel11.Controls.Add(this.textBox14);
+            this.panel11.Controls.Add(this.label19);
+            this.panel11.Enabled = false;
+            this.panel11.Location = new System.Drawing.Point(499, 7);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(487, 109);
+            this.panel11.TabIndex = 33;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(3, 54);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 9;
+            this.button16.Text = "Edit on Tab";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(3, 25);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 8;
+            this.button17.Text = "Set Default";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(81, 5);
+            this.textBox14.Multiline = true;
+            this.textBox14.Name = "textBox14";
+            this.textBox14.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox14.Size = new System.Drawing.Size(403, 101);
+            this.textBox14.TabIndex = 7;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(6, 8);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(69, 13);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "Custom Meta";
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel12.Controls.Add(this.button18);
+            this.panel12.Controls.Add(this.textBox15);
+            this.panel12.Controls.Add(this.label20);
+            this.panel12.Enabled = false;
+            this.panel12.Location = new System.Drawing.Point(6, 351);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(490, 109);
+            this.panel12.TabIndex = 32;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(6, 45);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.TabIndex = 8;
+            this.button18.Text = "Get Default";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(81, 5);
+            this.textBox15.Multiline = true;
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox15.Size = new System.Drawing.Size(406, 101);
+            this.textBox15.TabIndex = 7;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(3, 29);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(69, 13);
+            this.label20.TabIndex = 6;
+            this.label20.Text = "Custom Meta";
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel13.Controls.Add(this.button19);
+            this.panel13.Controls.Add(this.textBox16);
+            this.panel13.Controls.Add(this.label21);
+            this.panel13.Enabled = false;
+            this.panel13.Location = new System.Drawing.Point(6, 234);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(487, 109);
+            this.panel13.TabIndex = 30;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(6, 45);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 23);
+            this.button19.TabIndex = 8;
+            this.button19.Text = "Get Default";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(81, 5);
+            this.textBox16.Multiline = true;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox16.Size = new System.Drawing.Size(403, 101);
+            this.textBox16.TabIndex = 7;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(3, 29);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(69, 13);
+            this.label21.TabIndex = 6;
+            this.label21.Text = "Custom Meta";
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel14.Controls.Add(this.button20);
+            this.panel14.Controls.Add(this.button21);
+            this.panel14.Controls.Add(this.textBox17);
+            this.panel14.Controls.Add(this.label22);
+            this.panel14.Enabled = false;
+            this.panel14.Location = new System.Drawing.Point(6, 122);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(487, 109);
+            this.panel14.TabIndex = 31;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(3, 53);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(75, 23);
+            this.button20.TabIndex = 10;
+            this.button20.Text = "Edit on Tab";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(3, 24);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(75, 23);
+            this.button21.TabIndex = 8;
+            this.button21.Text = "Get Default";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(81, 5);
+            this.textBox17.Multiline = true;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox17.Size = new System.Drawing.Size(403, 101);
+            this.textBox17.TabIndex = 7;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 8);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(81, 13);
+            this.label22.TabIndex = 6;
+            this.label22.Text = "Custom NavBar";
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel15.Controls.Add(this.button22);
+            this.panel15.Controls.Add(this.button23);
+            this.panel15.Controls.Add(this.textBox18);
+            this.panel15.Controls.Add(this.label23);
+            this.panel15.Enabled = false;
+            this.panel15.Location = new System.Drawing.Point(6, 7);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(487, 109);
+            this.panel15.TabIndex = 29;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(3, 54);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 23);
+            this.button22.TabIndex = 9;
+            this.button22.Text = "Edit on Tab";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(3, 25);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 8;
+            this.button23.Text = "Set Default";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(81, 5);
+            this.textBox18.Multiline = true;
+            this.textBox18.Name = "textBox18";
+            this.textBox18.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox18.Size = new System.Drawing.Size(403, 101);
+            this.textBox18.TabIndex = 7;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(6, 8);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(69, 13);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Custom Meta";
+            // 
+            // tabPage
+            // 
+            this.tabPage.Controls.Add(this.panel2);
+            this.tabPage.Controls.Add(this.panel5);
+            this.tabPage.Controls.Add(this.panel6);
+            this.tabPage.Controls.Add(this.panel7);
+            this.tabPage.Controls.Add(this.panel4);
+            this.tabPage.Controls.Add(this.panel3);
+            this.tabPage.Controls.Add(this.customNavbarPanel);
+            this.tabPage.Controls.Add(this.customMetaPanel);
+            this.tabPage.Location = new System.Drawing.Point(4, 22);
+            this.tabPage.Name = "tabPage";
+            this.tabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage.Size = new System.Drawing.Size(995, 467);
+            this.tabPage.TabIndex = 0;
+            this.tabPage.Text = "Tab #1";
+            this.tabPage.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.Controls.Add(this.button38);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.textBox3);
+            this.panel2.Controls.Add(this.label13);
+            this.panel2.Enabled = false;
+            this.panel2.Location = new System.Drawing.Point(499, 351);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(490, 109);
+            this.panel2.TabIndex = 36;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(3, 29);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 8;
+            this.button6.Text = "Get Default";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(81, 5);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox3.Size = new System.Drawing.Size(406, 101);
+            this.textBox3.TabIndex = 7;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 8);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(69, 13);
+            this.label13.TabIndex = 6;
+            this.label13.Text = "Custom Meta";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel5.Controls.Add(this.button39);
+            this.panel5.Controls.Add(this.button7);
+            this.panel5.Controls.Add(this.textBox8);
+            this.panel5.Controls.Add(this.label14);
+            this.panel5.Enabled = false;
+            this.panel5.Location = new System.Drawing.Point(499, 234);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(487, 109);
+            this.panel5.TabIndex = 34;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(3, 25);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "Get Default";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(81, 5);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox8.Size = new System.Drawing.Size(403, 101);
+            this.textBox8.TabIndex = 7;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(6, 8);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(69, 13);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "Custom Meta";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel6.Controls.Add(this.button8);
+            this.panel6.Controls.Add(this.button9);
+            this.panel6.Controls.Add(this.textBox9);
+            this.panel6.Controls.Add(this.label15);
+            this.panel6.Enabled = false;
+            this.panel6.Location = new System.Drawing.Point(499, 122);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(487, 109);
+            this.panel6.TabIndex = 35;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(3, 53);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 10;
+            this.button8.Text = "Edit on Tab";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(3, 24);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "Get Default";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(81, 5);
+            this.textBox9.Multiline = true;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox9.Size = new System.Drawing.Size(403, 101);
+            this.textBox9.TabIndex = 7;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(3, 8);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(81, 13);
+            this.label15.TabIndex = 6;
+            this.label15.Text = "Custom NavBar";
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel7.Controls.Add(this.button10);
+            this.panel7.Controls.Add(this.button11);
+            this.panel7.Controls.Add(this.textBox10);
+            this.panel7.Controls.Add(this.label16);
+            this.panel7.Enabled = false;
+            this.panel7.Location = new System.Drawing.Point(499, 7);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(487, 109);
+            this.panel7.TabIndex = 33;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(3, 54);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 23);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "Edit on Tab";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(3, 25);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.TabIndex = 8;
+            this.button11.Text = "Set Default";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(81, 5);
+            this.textBox10.Multiline = true;
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox10.Size = new System.Drawing.Size(403, 101);
+            this.textBox10.TabIndex = 7;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 8);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 13);
+            this.label16.TabIndex = 6;
+            this.label16.Text = "Custom Meta";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel4.Controls.Add(this.button37);
+            this.panel4.Controls.Add(this.button5);
+            this.panel4.Controls.Add(this.textBox5);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Enabled = false;
+            this.panel4.Location = new System.Drawing.Point(6, 351);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(490, 109);
+            this.panel4.TabIndex = 32;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(3, 25);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Get Default";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(81, 5);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox5.Size = new System.Drawing.Size(406, 101);
+            this.textBox5.TabIndex = 7;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 8);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Custom Meta";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel3.Controls.Add(this.button36);
+            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Enabled = false;
+            this.panel3.Location = new System.Drawing.Point(6, 234);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(487, 109);
+            this.panel3.TabIndex = 30;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(3, 24);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Get Default";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(81, 5);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox4.Size = new System.Drawing.Size(403, 101);
+            this.textBox4.TabIndex = 7;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(55, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Blog Entry";
+            // 
+            // customNavbarPanel
+            // 
+            this.customNavbarPanel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.customNavbarPanel.Controls.Add(this.editOnTabBTN2);
+            this.customNavbarPanel.Controls.Add(this.getDefaultNavbar);
+            this.customNavbarPanel.Controls.Add(this.navbarTextBox);
+            this.customNavbarPanel.Controls.Add(this.label5);
+            this.customNavbarPanel.Enabled = false;
+            this.customNavbarPanel.Location = new System.Drawing.Point(6, 122);
+            this.customNavbarPanel.Name = "customNavbarPanel";
+            this.customNavbarPanel.Size = new System.Drawing.Size(487, 109);
+            this.customNavbarPanel.TabIndex = 31;
+            // 
+            // editOnTabBTN2
+            // 
+            this.editOnTabBTN2.Location = new System.Drawing.Point(3, 53);
+            this.editOnTabBTN2.Name = "editOnTabBTN2";
+            this.editOnTabBTN2.Size = new System.Drawing.Size(75, 23);
+            this.editOnTabBTN2.TabIndex = 10;
+            this.editOnTabBTN2.Text = "Edit on Tab";
+            this.editOnTabBTN2.UseVisualStyleBackColor = true;
+            this.editOnTabBTN2.Click += new System.EventHandler(this.editOnTabBTN2_Click_2);
+            // 
+            // getDefaultNavbar
+            // 
+            this.getDefaultNavbar.Location = new System.Drawing.Point(3, 24);
+            this.getDefaultNavbar.Name = "getDefaultNavbar";
+            this.getDefaultNavbar.Size = new System.Drawing.Size(75, 23);
+            this.getDefaultNavbar.TabIndex = 8;
+            this.getDefaultNavbar.Text = "Get Default";
+            this.getDefaultNavbar.UseVisualStyleBackColor = true;
+            // 
+            // navbarTextBox
+            // 
+            this.navbarTextBox.Location = new System.Drawing.Point(81, 5);
+            this.navbarTextBox.Multiline = true;
+            this.navbarTextBox.Name = "navbarTextBox";
+            this.navbarTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.navbarTextBox.Size = new System.Drawing.Size(403, 101);
+            this.navbarTextBox.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(3, 8);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Custom NavBar";
+            // 
+            // customMetaPanel
+            // 
+            this.customMetaPanel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.customMetaPanel.Controls.Add(this.editOnTabBTN);
+            this.customMetaPanel.Controls.Add(this.getDefaultMeta);
+            this.customMetaPanel.Controls.Add(this.metaTextBox);
+            this.customMetaPanel.Controls.Add(this.label4);
+            this.customMetaPanel.Enabled = false;
+            this.customMetaPanel.Location = new System.Drawing.Point(6, 7);
+            this.customMetaPanel.Name = "customMetaPanel";
+            this.customMetaPanel.Size = new System.Drawing.Size(487, 109);
+            this.customMetaPanel.TabIndex = 29;
+            // 
+            // editOnTabBTN
+            // 
+            this.editOnTabBTN.Location = new System.Drawing.Point(3, 54);
+            this.editOnTabBTN.Name = "editOnTabBTN";
+            this.editOnTabBTN.Size = new System.Drawing.Size(75, 23);
+            this.editOnTabBTN.TabIndex = 9;
+            this.editOnTabBTN.Text = "Edit on Tab";
+            this.editOnTabBTN.UseVisualStyleBackColor = true;
+            this.editOnTabBTN.Click += new System.EventHandler(this.editOnTabBTN_Click);
+            // 
+            // getDefaultMeta
+            // 
+            this.getDefaultMeta.Location = new System.Drawing.Point(3, 25);
+            this.getDefaultMeta.Name = "getDefaultMeta";
+            this.getDefaultMeta.Size = new System.Drawing.Size(75, 23);
+            this.getDefaultMeta.TabIndex = 8;
+            this.getDefaultMeta.Text = "Set Default";
+            this.getDefaultMeta.UseVisualStyleBackColor = true;
+            // 
+            // metaTextBox
+            // 
+            this.metaTextBox.Location = new System.Drawing.Point(81, 5);
+            this.metaTextBox.Multiline = true;
+            this.metaTextBox.Name = "metaTextBox";
+            this.metaTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.metaTextBox.Size = new System.Drawing.Size(403, 101);
+            this.metaTextBox.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Custom Meta";
+            // 
+            // tabControl
+            // 
+            this.tabControl.Controls.Add(this.tabPage);
+            this.tabControl.Controls.Add(this.tabPage2);
+            this.tabControl.Controls.Add(this.tabPage3);
+            this.tabControl.Enabled = false;
+            this.tabControl.Location = new System.Drawing.Point(275, 5);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(1003, 493);
+            this.tabControl.TabIndex = 24;
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(3, 53);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(75, 23);
+            this.button36.TabIndex = 11;
+            this.button36.Text = "Edit on Tab";
+            this.button36.UseVisualStyleBackColor = true;
+            // 
+            // button37
+            // 
+            this.button37.Location = new System.Drawing.Point(3, 54);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(75, 23);
+            this.button37.TabIndex = 12;
+            this.button37.Text = "Edit on Tab";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
+            // button38
+            // 
+            this.button38.Location = new System.Drawing.Point(3, 59);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(75, 23);
+            this.button38.TabIndex = 13;
+            this.button38.Text = "Edit on Tab";
+            this.button38.UseVisualStyleBackColor = true;
+            // 
+            // button39
+            // 
+            this.button39.Location = new System.Drawing.Point(3, 53);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(75, 23);
+            this.button39.TabIndex = 14;
+            this.button39.Text = "Edit on Tab";
+            this.button39.UseVisualStyleBackColor = true;
+            // 
+            // button40
+            // 
+            this.button40.Location = new System.Drawing.Point(18, 9);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(75, 23);
+            this.button40.TabIndex = 25;
+            this.button40.Text = "button40";
+            this.button40.UseVisualStyleBackColor = true;
+            this.button40.Click += new System.EventHandler(this.button40_Click);
+            // 
             // advancedHTML
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1282, 526);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.button40);
+            this.Controls.Add(this.tabControl);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.checkBoxesPanel);
             this.Controls.Add(this.textBox7);
@@ -1767,41 +1848,6 @@
             this.checkBoxesPanel.ResumeLayout(false);
             this.checkBoxesPanel.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.customNavbarPanel.ResumeLayout(false);
-            this.customNavbarPanel.PerformLayout();
-            this.customMetaPanel.ResumeLayout(false);
-            this.customMetaPanel.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             this.panel17.ResumeLayout(false);
@@ -1818,6 +1864,41 @@
             this.panel22.PerformLayout();
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel13.ResumeLayout(false);
+            this.panel13.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.tabPage.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.panel7.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.customNavbarPanel.ResumeLayout(false);
+            this.customNavbarPanel.PerformLayout();
+            this.customMetaPanel.ResumeLayout(false);
+            this.customMetaPanel.PerformLayout();
+            this.tabControl.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1841,25 +1922,25 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel checkBoxesPanel;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBoxContact;
+        private System.Windows.Forms.CheckBox checkBoxFooter;
+        private System.Windows.Forms.CheckBox checkBoxPictures;
+        private System.Windows.Forms.CheckBox checkBoxComment;
+        private System.Windows.Forms.CheckBox checkBoxLogin;
+        private System.Windows.Forms.CheckBox checkBoxRegister;
+        private System.Windows.Forms.CheckBox checkBoxSubs;
+        private System.Windows.Forms.CheckBox checkBoxPoll;
+        private System.Windows.Forms.CheckBox checkBoxPortfolio;
+        private System.Windows.Forms.CheckBox checkBoxSearch;
+        private System.Windows.Forms.CheckBox checkBoxMaintenance;
+        private System.Windows.Forms.CheckBox checkBoxNavs;
+        private System.Windows.Forms.CheckBox checkBoxProgressBar;
+        private System.Windows.Forms.CheckBox checkBoxCards;
+        private System.Windows.Forms.CheckBox checkBoxCarousel;
+        private System.Windows.Forms.CheckBox checkBoxCTable;
+        private System.Windows.Forms.CheckBox checkBox3Row;
+        private System.Windows.Forms.CheckBox checkBoxInfoPanel;
+        private System.Windows.Forms.CheckBox checkBoxTBest;
         private System.Windows.Forms.CheckBox checkBoxBlog;
         private System.Windows.Forms.CheckBox checkBoxNavBar;
         private System.Windows.Forms.CheckBox checkBoxMeta;
@@ -1939,7 +2020,7 @@
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.TextBox textBox18;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox3;
@@ -1976,6 +2057,11 @@
         private System.Windows.Forms.Button getDefaultMeta;
         private System.Windows.Forms.TextBox metaTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.Button button38;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button button40;
     }
 }
