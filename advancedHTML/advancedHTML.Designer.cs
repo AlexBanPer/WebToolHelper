@@ -168,7 +168,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.CustomBlogEntryPanel = new System.Windows.Forms.Panel();
             this.editOnTabBTN3 = new System.Windows.Forms.Button();
             this.getDefaultBlog = new System.Windows.Forms.Button();
             this.blogEntryTxt = new System.Windows.Forms.TextBox();
@@ -209,7 +209,7 @@
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.CustomBlogEntryPanel.SuspendLayout();
             this.customNavbarPanel.SuspendLayout();
             this.customMetaPanel.SuspendLayout();
             this.tabControl.SuspendLayout();
@@ -1392,7 +1392,7 @@
             this.tabPage.Controls.Add(this.panel6);
             this.tabPage.Controls.Add(this.panel7);
             this.tabPage.Controls.Add(this.panel4);
-            this.tabPage.Controls.Add(this.panel3);
+            this.tabPage.Controls.Add(this.CustomBlogEntryPanel);
             this.tabPage.Controls.Add(this.customNavbarPanel);
             this.tabPage.Controls.Add(this.customMetaPanel);
             this.tabPage.Location = new System.Drawing.Point(4, 22);
@@ -1648,18 +1648,18 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Custom Meta";
             // 
-            // panel3
+            // CustomBlogEntryPanel
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.Controls.Add(this.editOnTabBTN3);
-            this.panel3.Controls.Add(this.getDefaultBlog);
-            this.panel3.Controls.Add(this.blogEntryTxt);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Enabled = false;
-            this.panel3.Location = new System.Drawing.Point(6, 234);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(487, 109);
-            this.panel3.TabIndex = 30;
+            this.CustomBlogEntryPanel.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.CustomBlogEntryPanel.Controls.Add(this.editOnTabBTN3);
+            this.CustomBlogEntryPanel.Controls.Add(this.getDefaultBlog);
+            this.CustomBlogEntryPanel.Controls.Add(this.blogEntryTxt);
+            this.CustomBlogEntryPanel.Controls.Add(this.label6);
+            this.CustomBlogEntryPanel.Enabled = false;
+            this.CustomBlogEntryPanel.Location = new System.Drawing.Point(6, 234);
+            this.CustomBlogEntryPanel.Name = "CustomBlogEntryPanel";
+            this.CustomBlogEntryPanel.Size = new System.Drawing.Size(487, 109);
+            this.CustomBlogEntryPanel.TabIndex = 30;
             // 
             // editOnTabBTN3
             // 
@@ -1669,6 +1669,7 @@
             this.editOnTabBTN3.TabIndex = 11;
             this.editOnTabBTN3.Text = "Edit on Tab";
             this.editOnTabBTN3.UseVisualStyleBackColor = true;
+            this.editOnTabBTN3.Click += new System.EventHandler(this.editOnTabBTN3_Click);
             // 
             // getDefaultBlog
             // 
@@ -1885,8 +1886,8 @@
             this.panel7.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.CustomBlogEntryPanel.ResumeLayout(false);
+            this.CustomBlogEntryPanel.PerformLayout();
             this.customNavbarPanel.ResumeLayout(false);
             this.customNavbarPanel.PerformLayout();
             this.customMetaPanel.ResumeLayout(false);
@@ -2036,7 +2037,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel CustomBlogEntryPanel;
         private System.Windows.Forms.Button getDefaultBlog;
         private System.Windows.Forms.TextBox blogEntryTxt;
         private System.Windows.Forms.Label label6;

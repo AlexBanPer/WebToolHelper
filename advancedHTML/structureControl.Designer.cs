@@ -31,7 +31,6 @@
             this.saveBtn = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.SinglePageTab = new System.Windows.Forms.TabPage();
-            this.formPageTab = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,6 +53,7 @@
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.formPageTab = new System.Windows.Forms.TabPage();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
@@ -70,9 +70,10 @@
             this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.panel18 = new System.Windows.Forms.Panel();
             this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.SinglePageTab.SuspendLayout();
-            this.formPageTab.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -82,6 +83,7 @@
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.formPageTab.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel14.SuspendLayout();
@@ -89,13 +91,14 @@
             this.panel16.SuspendLayout();
             this.panel17.SuspendLayout();
             this.panel18.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(10, 484);
+            this.saveBtn.Location = new System.Drawing.Point(10, 504);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(945, 23);
+            this.saveBtn.Size = new System.Drawing.Size(947, 23);
             this.saveBtn.TabIndex = 3;
             this.saveBtn.Text = "SAVE";
             this.saveBtn.UseVisualStyleBackColor = true;
@@ -107,34 +110,22 @@
             this.tabControl1.Location = new System.Drawing.Point(10, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(947, 475);
+            this.tabControl1.Size = new System.Drawing.Size(947, 495);
             this.tabControl1.TabIndex = 4;
             // 
             // SinglePageTab
             // 
+            this.SinglePageTab.Controls.Add(this.panel11);
             this.SinglePageTab.Controls.Add(this.panel3);
             this.SinglePageTab.Controls.Add(this.panel2);
             this.SinglePageTab.Controls.Add(this.panel1);
             this.SinglePageTab.Location = new System.Drawing.Point(4, 22);
             this.SinglePageTab.Name = "SinglePageTab";
             this.SinglePageTab.Padding = new System.Windows.Forms.Padding(3);
-            this.SinglePageTab.Size = new System.Drawing.Size(939, 449);
+            this.SinglePageTab.Size = new System.Drawing.Size(939, 469);
             this.SinglePageTab.TabIndex = 0;
             this.SinglePageTab.Text = "Single Page";
             this.SinglePageTab.UseVisualStyleBackColor = true;
-            // 
-            // formPageTab
-            // 
-            this.formPageTab.Controls.Add(this.panel10);
-            this.formPageTab.Controls.Add(this.panel14);
-            this.formPageTab.Controls.Add(this.panel18);
-            this.formPageTab.Location = new System.Drawing.Point(4, 22);
-            this.formPageTab.Name = "formPageTab";
-            this.formPageTab.Padding = new System.Windows.Forms.Padding(3);
-            this.formPageTab.Size = new System.Drawing.Size(939, 449);
-            this.formPageTab.TabIndex = 1;
-            this.formPageTab.Text = "Form Page";
-            this.formPageTab.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -144,7 +135,7 @@
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Location = new System.Drawing.Point(6, 60);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(630, 378);
+            this.panel3.Size = new System.Drawing.Size(630, 363);
             this.panel3.TabIndex = 5;
             // 
             // panel6
@@ -242,7 +233,7 @@
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Location = new System.Drawing.Point(641, 60);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(291, 378);
+            this.panel2.Size = new System.Drawing.Size(291, 363);
             this.panel2.TabIndex = 4;
             // 
             // panel9
@@ -350,6 +341,19 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(778, 21);
             this.comboBox1.TabIndex = 0;
+            // 
+            // formPageTab
+            // 
+            this.formPageTab.Controls.Add(this.panel10);
+            this.formPageTab.Controls.Add(this.panel14);
+            this.formPageTab.Controls.Add(this.panel18);
+            this.formPageTab.Location = new System.Drawing.Point(4, 22);
+            this.formPageTab.Name = "formPageTab";
+            this.formPageTab.Padding = new System.Windows.Forms.Padding(3);
+            this.formPageTab.Size = new System.Drawing.Size(939, 449);
+            this.formPageTab.TabIndex = 1;
+            this.formPageTab.Text = "Form Page";
+            this.formPageTab.UseVisualStyleBackColor = true;
             // 
             // panel10
             // 
@@ -506,11 +510,30 @@
             this.comboBox14.Size = new System.Drawing.Size(778, 21);
             this.comboBox14.TabIndex = 0;
             // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel11.Controls.Add(this.comboBox8);
+            this.panel11.Location = new System.Drawing.Point(6, 430);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(926, 33);
+            this.panel11.TabIndex = 6;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Navbar"});
+            this.comboBox8.Location = new System.Drawing.Point(74, 6);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(778, 21);
+            this.comboBox8.TabIndex = 1;
+            // 
             // structureControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(969, 512);
+            this.ClientSize = new System.Drawing.Size(969, 539);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.saveBtn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -518,7 +541,6 @@
             this.Text = "structureControl";
             this.tabControl1.ResumeLayout(false);
             this.SinglePageTab.ResumeLayout(false);
-            this.formPageTab.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -534,6 +556,7 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.formPageTab.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
@@ -545,6 +568,7 @@
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             this.panel18.ResumeLayout(false);
+            this.panel11.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -592,5 +616,7 @@
         private System.Windows.Forms.ComboBox comboBox13;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.ComboBox comboBox8;
     }
 }

@@ -80,6 +80,15 @@ namespace WebToolHelper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;!-- to do --&gt;.
+        /// </summary>
+        internal static string defaultBlogEntry {
+            get {
+                return ResourceManager.GetString("defaultBlogEntry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to   &lt;meta charset=&quot;UTF-8&quot;&gt;
         ///  &lt;meta name=&quot;description&quot; content=&quot;Free Web tutorials&quot;&gt;
         ///  &lt;meta name=&quot;keywords&quot; content=&quot;HTML,CSS,XML,JavaScript&quot;&gt;
@@ -93,15 +102,19 @@ namespace WebToolHelper.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;nav class=&quot;navbar navbar-toggleable-md navbar-light bg-faded&quot;&gt;
-        ///  &lt;button class=&quot;navbar-toggler navbar-toggler-right&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;
-        ///    &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
-        ///  &lt;/button&gt;
-        ///  &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Navbar&lt;/a&gt;
+        ///   Looks up a localized string similar to &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+        ///	&lt;div class=&quot;container-fluid&quot;&gt;
+        ///		&lt;div class=&quot;navbar-header&quot;&gt;
+        ///			&lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#bs-example-navbar-collapse-1&quot;&gt;
+        ///				&lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+        ///				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        ///				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        ///				&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+        ///			&lt;/button&gt;
+        ///			&lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Glaucus Indie&lt;/a&gt;
+        ///		&lt;/div&gt;
         ///
-        ///  &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;
-        ///    &lt;ul class=&quot;navbar-nav mr-auto&quot;&gt;
-        ///      &lt;l [rest of string was truncated]&quot;;.
+        ///		&lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;b [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string defaultNavbar {
             get {

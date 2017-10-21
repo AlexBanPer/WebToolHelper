@@ -151,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default_basic.html" />
+    <None Include="Resources\defaultBlogEntry.txt" />
     <None Include="Resources\defaultNavbar.txt" />
     <None Include="Resources\defaultMeta.txt" />
   </ItemGroup>

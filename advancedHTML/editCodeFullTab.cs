@@ -33,6 +33,9 @@ namespace WebToolHelper
                     case "NavBar":
                         advancedHTMLSetString.setNavBarTextBox = textBox1.Text;
                         break;
+                    case "BlogEntry":
+                        advancedHTMLSetString.setBlogEntryTextBox = textBox1.Text;
+                        break;
                     default:
                         MessageBox.Show("Nombre de TAB para el editor no encontrado!");
                         break;

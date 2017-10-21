@@ -15,6 +15,7 @@ namespace WebToolHelper
     {
         String metaTxt = Resources.defaultMeta;
         String navbarTxt = Resources.defaultNavbar;
+        String blogTxt = Resources.defaultBlogEntry;
 
         public advancedHTML()
         {
@@ -170,11 +171,6 @@ namespace WebToolHelper
             }
         }
 
-        private void button40_Click(object sender, EventArgs e)
-        {
-            setTrueOrFalse(new List<int> {1,2,3}, false);
-        }
-
         //get defaults
 
         private void getDefaultMeta_Click(object sender, EventArgs e)
@@ -188,7 +184,7 @@ namespace WebToolHelper
         }
         private void getDefaultBlog_Click(object sender, EventArgs e)
         {
-            blogEntryTxt.Text = "";
+            blogEntryTxt.Text = blogTxt;
         }
 
         /////////////////////////////////
@@ -218,10 +214,20 @@ namespace WebToolHelper
             {
                 customNavbarPanel.Enabled = false;
             }
+
+            if (checkBoxBlog.Checked)
+            {
+                CustomBlogEntryPanel.Enabled = true;
+            }
+            else
+            {
+                CustomBlogEntryPanel.Enabled = false;
+            }
         }
 
         public string setMetaTextBox { set { metaTextBox.Text = value; } }
         public string setNavBarTextBox { set { navbarTextBox.Text = value; } }
+        public string setBlogEntryTextBox { set { blogEntryTxt.Text = value; } }
 
         private void editOnTabBTN_Click(object sender, EventArgs e)
         {
@@ -236,6 +242,14 @@ namespace WebToolHelper
             String textToEdit = navbarTextBox.Text;
             globalFunctions.textToEdit = textToEdit;
             globalFunctions.tabToSet = "NavBar";
+            openNewTab();
+        }
+
+        private void editOnTabBTN3_Click(object sender, EventArgs e)
+        {
+            String textToEdit = blogEntryTxt.Text;
+            globalFunctions.textToEdit = textToEdit;
+            globalFunctions.tabToSet = "BlogEntry";
             openNewTab();
         }
 
