@@ -144,10 +144,12 @@
             this.label23 = new System.Windows.Forms.Label();
             this.tabPage = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button38 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.button39 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -162,10 +164,12 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.button37 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button36 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -180,10 +184,6 @@
             this.metaTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
             this.checkBoxesPanel.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.panel16.SuspendLayout();
@@ -230,9 +230,7 @@
             this.selectPageTypeBox.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.selectPageTypeBox.Items.AddRange(new object[] {
             "Choose a category...",
-            "Index",
-            "Login",
-            "Register",
+            "Full Site Build",
             "Custom Code"});
             this.selectPageTypeBox.Location = new System.Drawing.Point(78, 45);
             this.selectPageTypeBox.Name = "selectPageTypeBox";
@@ -264,7 +262,7 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Location = new System.Drawing.Point(259, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(10, 486);
+            this.panel1.Size = new System.Drawing.Size(10, 504);
             this.panel1.TabIndex = 5;
             // 
             // siteTitleTxt
@@ -307,7 +305,7 @@
             this.structureBtn.Name = "structureBtn";
             this.structureBtn.Size = new System.Drawing.Size(478, 23);
             this.structureBtn.TabIndex = 13;
-            this.structureBtn.Text = "Set Structure";
+            this.structureBtn.Text = "--";
             this.structureBtn.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -1418,6 +1416,15 @@
             this.panel2.Size = new System.Drawing.Size(490, 109);
             this.panel2.TabIndex = 36;
             // 
+            // button38
+            // 
+            this.button38.Location = new System.Drawing.Point(3, 59);
+            this.button38.Name = "button38";
+            this.button38.Size = new System.Drawing.Size(75, 23);
+            this.button38.TabIndex = 13;
+            this.button38.Text = "Edit on Tab";
+            this.button38.UseVisualStyleBackColor = true;
+            // 
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(3, 29);
@@ -1457,6 +1464,15 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(487, 109);
             this.panel5.TabIndex = 34;
+            // 
+            // button39
+            // 
+            this.button39.Location = new System.Drawing.Point(3, 53);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(75, 23);
+            this.button39.TabIndex = 14;
+            this.button39.Text = "Edit on Tab";
+            this.button39.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -1596,6 +1612,15 @@
             this.panel4.Size = new System.Drawing.Size(490, 109);
             this.panel4.TabIndex = 32;
             // 
+            // button37
+            // 
+            this.button37.Location = new System.Drawing.Point(3, 54);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(75, 23);
+            this.button37.TabIndex = 12;
+            this.button37.Text = "Edit on Tab";
+            this.button37.UseVisualStyleBackColor = true;
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(3, 25);
@@ -1635,6 +1660,15 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(487, 109);
             this.panel3.TabIndex = 30;
+            // 
+            // button36
+            // 
+            this.button36.Location = new System.Drawing.Point(3, 53);
+            this.button36.Name = "button36";
+            this.button36.Size = new System.Drawing.Size(75, 23);
+            this.button36.TabIndex = 11;
+            this.button36.Text = "Edit on Tab";
+            this.button36.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
@@ -1774,42 +1808,6 @@
             this.tabControl.SelectedIndex = 0;
             this.tabControl.Size = new System.Drawing.Size(1003, 493);
             this.tabControl.TabIndex = 24;
-            // 
-            // button36
-            // 
-            this.button36.Location = new System.Drawing.Point(3, 53);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(75, 23);
-            this.button36.TabIndex = 11;
-            this.button36.Text = "Edit on Tab";
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Location = new System.Drawing.Point(3, 54);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(75, 23);
-            this.button37.TabIndex = 12;
-            this.button37.Text = "Edit on Tab";
-            this.button37.UseVisualStyleBackColor = true;
-            // 
-            // button38
-            // 
-            this.button38.Location = new System.Drawing.Point(3, 59);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(75, 23);
-            this.button38.TabIndex = 13;
-            this.button38.Text = "Edit on Tab";
-            this.button38.UseVisualStyleBackColor = true;
-            // 
-            // button39
-            // 
-            this.button39.Location = new System.Drawing.Point(3, 53);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(75, 23);
-            this.button39.TabIndex = 14;
-            this.button39.Text = "Edit on Tab";
-            this.button39.UseVisualStyleBackColor = true;
             // 
             // advancedHTML
             // 

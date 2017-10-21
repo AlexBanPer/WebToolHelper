@@ -20,6 +20,9 @@ namespace WebToolHelper
         // set content for saveNewFile
         public static String content = "";
 
+        // set HTML content for advancedHTML
+        public static String advancedHtml = "";
+
         public static void saveNewFile(string type, string fileContent, string fileTitle = "")
         {
             SaveFileDialog saveFile = new SaveFileDialog();

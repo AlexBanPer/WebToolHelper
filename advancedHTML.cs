@@ -41,25 +41,12 @@ namespace WebToolHelper
                     checkBoxesPanel.Enabled = false;
                     tabControl.Enabled = false;
                     break;
-                case 1: //Index - Main Page
+                case 1: //Full HTML Site
                     checkBoxesPanel.Enabled = true;
                     tabControl.Enabled = true;
-                    setTrueOrFalse(new List<int> { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,22 }, true);
-                    setTrueOrFalse(new List<int> { 20,21 }, false);
+                    setTrueOrFalse(new List<int> { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19, 20, 21, 22 }, true);
                     break;
-                case 2: //Login
-                    checkBoxesPanel.Enabled = true;
-                    tabControl.Enabled = true;
-                    setTrueOrFalse(new List<int> { 21 }, true);
-                    setTrueOrFalse(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 22 }, false);
-                    break;
-                case 3: //Register
-                    checkBoxesPanel.Enabled = true;
-                    tabControl.Enabled = true;
-                    setTrueOrFalse(new List<int> { 20 }, true);
-                    setTrueOrFalse(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22 }, false);
-                    break;
-                case 4: //Custom code
+                case 2: //Custom code
                     setTrueOrFalse(new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22 }, false);
                     customCode cC = new customCode();
                     cC.Show();
