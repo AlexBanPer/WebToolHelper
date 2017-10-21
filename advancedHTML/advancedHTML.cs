@@ -186,6 +186,10 @@ namespace WebToolHelper
         {
             navbarTextBox.Text = navbarTxt;
         }
+        private void getDefaultBlog_Click(object sender, EventArgs e)
+        {
+            blogEntryTxt.Text = "";
+        }
 
         /////////////////////////////////
 

@@ -169,9 +169,9 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.editOnTabBTN3 = new System.Windows.Forms.Button();
+            this.getDefaultBlog = new System.Windows.Forms.Button();
+            this.blogEntryTxt = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.customNavbarPanel = new System.Windows.Forms.Panel();
             this.editOnTabBTN2 = new System.Windows.Forms.Button();
@@ -1651,9 +1651,9 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel3.Controls.Add(this.button36);
-            this.panel3.Controls.Add(this.button4);
-            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.editOnTabBTN3);
+            this.panel3.Controls.Add(this.getDefaultBlog);
+            this.panel3.Controls.Add(this.blogEntryTxt);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Enabled = false;
             this.panel3.Location = new System.Drawing.Point(6, 234);
@@ -1661,32 +1661,34 @@
             this.panel3.Size = new System.Drawing.Size(487, 109);
             this.panel3.TabIndex = 30;
             // 
-            // button36
+            // editOnTabBTN3
             // 
-            this.button36.Location = new System.Drawing.Point(3, 53);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(75, 23);
-            this.button36.TabIndex = 11;
-            this.button36.Text = "Edit on Tab";
-            this.button36.UseVisualStyleBackColor = true;
+            this.editOnTabBTN3.Location = new System.Drawing.Point(3, 53);
+            this.editOnTabBTN3.Name = "editOnTabBTN3";
+            this.editOnTabBTN3.Size = new System.Drawing.Size(75, 23);
+            this.editOnTabBTN3.TabIndex = 11;
+            this.editOnTabBTN3.Text = "Edit on Tab";
+            this.editOnTabBTN3.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // getDefaultBlog
             // 
-            this.button4.Location = new System.Drawing.Point(3, 24);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Get Default";
-            this.button4.UseVisualStyleBackColor = true;
+            this.getDefaultBlog.Location = new System.Drawing.Point(3, 24);
+            this.getDefaultBlog.Name = "getDefaultBlog";
+            this.getDefaultBlog.Size = new System.Drawing.Size(75, 23);
+            this.getDefaultBlog.TabIndex = 8;
+            this.getDefaultBlog.Text = "Get Default";
+            this.getDefaultBlog.UseVisualStyleBackColor = true;
+            this.getDefaultBlog.Click += new System.EventHandler(this.getDefaultBlog_Click);
             // 
-            // textBox4
+            // blogEntryTxt
             // 
-            this.textBox4.Location = new System.Drawing.Point(81, 5);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox4.Size = new System.Drawing.Size(403, 101);
-            this.textBox4.TabIndex = 7;
+            this.blogEntryTxt.Location = new System.Drawing.Point(81, 5);
+            this.blogEntryTxt.Multiline = true;
+            this.blogEntryTxt.Name = "blogEntryTxt";
+            this.blogEntryTxt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.blogEntryTxt.Size = new System.Drawing.Size(403, 101);
+            this.blogEntryTxt.TabIndex = 7;
+            this.blogEntryTxt.Text = "<!-- Use defaults or leave empty -->";
             // 
             // label6
             // 
@@ -2035,8 +2037,8 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button getDefaultBlog;
+        private System.Windows.Forms.TextBox blogEntryTxt;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel customNavbarPanel;
         private System.Windows.Forms.Button editOnTabBTN2;
@@ -2052,6 +2054,6 @@
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Button button39;
         private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button editOnTabBTN3;
     }
 }
